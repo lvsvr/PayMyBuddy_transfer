@@ -11,7 +11,7 @@ public class BankAccount {
     private long id;
     @Column(name = "iban")
     private String iban;
-    @Column(name = "id")
+    @Column(name = "userAccount_id")
     private long idUserAccount;
 
     public BankAccount(long id, String iban, long idUserAccount) {
