@@ -21,8 +21,9 @@ public class UserAccountService {
         return userAccountRepository.findById(id);
     }
 
-    public void saveUserAccount(UserAccount userAccount){
-        userAccountRepository.save(userAccount);
+    public UserAccount addUserAccount(UserAccount userAccount){
+
+        return userAccountRepository.save(userAccount);
     }
 
     public void deleteUserAccount(Long id){

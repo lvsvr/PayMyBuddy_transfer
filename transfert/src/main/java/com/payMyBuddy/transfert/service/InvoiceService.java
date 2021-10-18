@@ -21,8 +21,9 @@ public class InvoiceService {
       return invoiceRepository.findById(id);
     }
 
-    public void saveInvoice(Invoice invoice){
-        invoiceRepository.save(invoice);
+    public Invoice addInvoice(Invoice invoice){
+
+        return invoiceRepository.save(invoice);
     }
 
     public void deleteInvoiceById(Long id){

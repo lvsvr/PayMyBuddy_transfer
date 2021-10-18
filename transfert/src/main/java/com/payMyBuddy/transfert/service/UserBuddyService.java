@@ -15,15 +15,16 @@ public class UserBuddyService {
         return userBuddyRepository.findAll();
     }
 
-    public Optional<UserBuddy> getUserBuddyById(Long id){
+    public Optional<UserBuddy> getUserBuddyById(Long id) {
         return userBuddyRepository.findById(id);
     }
 
-    public void saveUserBuddy(UserBuddy userBuddy){
-        userBuddyRepository.save(userBuddy);
+    public UserBuddy addUserBuddy(UserBuddy userBuddy) {
+
+        return userBuddyRepository.save(userBuddy);
     }
 
-    public void deleteUserBuddy(Long id){
+    public void deleteUserBuddy(Long id) {
         userBuddyRepository.deleteById(id);
     }
 }
