@@ -12,21 +12,20 @@ public class UserAccount {
     private long id;
     @Column(name="id_pmbUser")
     private long userId;
-    private long bankAccount;
+//    private long bankAccount;
     @Column(name="balance")
     private double balance;
-    private ArrayList<User> buddyList;
-    private ArrayList<Transaction> history;
-    private ArrayList<Invoice> invoiceList;
+//    @OneToMany(cascade=CascadeType.ALL, orphanRemoval = true, fetch=FetchType.EAGER)
 
-    public UserAccount(long id, long userId, long bankAccount, double balance, ArrayList<User> buddyList, ArrayList<Transaction> history, ArrayList<Invoice> invoiceList) {
+//    private ArrayList<User> buddyList;
+//    private ArrayList<Transaction> history;
+//    private ArrayList<Invoice> invoiceList;
+
+
+    public UserAccount(long id, long userId, double balance) {
         this.id = id;
         this.userId = userId;
-        this.bankAccount = bankAccount;
         this.balance = balance;
-        this.buddyList = buddyList;
-        this.history = history;
-        this.invoiceList = invoiceList;
     }
 
     public long getId() {
@@ -45,43 +44,11 @@ public class UserAccount {
         this.userId = userId;
     }
 
-    public long getBankAccount() {
-        return bankAccount;
-    }
-
-    public void setBankAccount(long bankAccount) {
-        this.bankAccount = bankAccount;
-    }
-
     public double getBalance() {
         return balance;
     }
 
     public void setBalance(double balance) {
         this.balance = balance;
-    }
-
-    public ArrayList<User> getBuddyList() {
-        return buddyList;
-    }
-
-    public void setBuddyList(ArrayList<User> buddyList) {
-        this.buddyList = buddyList;
-    }
-
-    public ArrayList<Transaction> getHistory() {
-        return history;
-    }
-
-    public void setHistory(ArrayList<Transaction> history) {
-        this.history = history;
-    }
-
-    public ArrayList<Invoice> getInvoiceList() {
-        return invoiceList;
-    }
-
-    public void setInvoiceList(ArrayList<Invoice> invoiceList) {
-        this.invoiceList = invoiceList;
     }
 }

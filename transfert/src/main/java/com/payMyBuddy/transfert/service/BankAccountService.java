@@ -13,19 +13,19 @@ public class BankAccountService {
     @Autowired
     private BankAccountRepository bankAccountRepository;
 
-    public Iterable<BankAccount> getAllBankAccounts(){
+    public Iterable<BankAccount> getAllBankAccounts() {
         return bankAccountRepository.findAll();
     }
 
-    public Optional<BankAccount> getBankAccountById(Long id){
+    public Optional<BankAccount> getBankAccountById(Long id) {
         return bankAccountRepository.findById(id);
     }
 
-    public void saveBankAccount(BankAccount bankAccount){
-        bankAccountRepository.save(bankAccount);
+    public BankAccount addBankAccount(BankAccount bankAccount) {
+        return bankAccountRepository.save(bankAccount);
     }
 
-    public void deleteBankAccountById(Long id){
+    public void deleteBankAccountById(Long id) {
         bankAccountRepository.deleteById(id);
     }
 }
