@@ -2,7 +2,6 @@ package com.payMyBuddy.transfert.service;
 
 import com.payMyBuddy.transfert.model.User;
 import com.payMyBuddy.transfert.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -10,8 +9,12 @@ import java.util.Optional;
 @Service
 public class UserService {
 
-    @Autowired
-    private UserRepository userRepository;
+
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     public Iterable<User> getAllUsers() {
         return userRepository.findAll();

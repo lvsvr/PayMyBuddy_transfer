@@ -1,4 +1,32 @@
-[INFO ] 2021-10-20 07:26:03.588 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 4542 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
-[INFO ] 2021-10-20 07:26:03.597 [main] TransfertApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2021-10-20 07:26:06.007 [main] TransfertApplication - Started TransfertApplication in 2.648 seconds (JVM running for 3.325)
-[INFO ] 2021-10-20 07:26:06.009 [main] TransfertApplication - app initialized
+[INFO ] 2021-10-23 20:21:36.971 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 8250 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:21:36.981 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:23:31.832 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 8455 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:23:31.837 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:27:15.485 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 8687 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:27:15.490 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:29:44.234 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 8877 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:29:44.238 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:30:15.494 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 8979 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:30:15.501 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:30:24.364 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 9069 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:30:24.369 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:31:45.022 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 9212 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:31:45.027 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:35:04.579 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 9437 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:35:04.586 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:50:44.634 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 10138 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:50:44.640 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:51:48.108 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 10271 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:51:48.113 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:56:45.487 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 10543 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 20:56:45.492 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 20:56:47.832 [main] TransfertApplication - Started TransfertApplication in 2.567 seconds (JVM running for 3.121)
+[INFO ] 2021-10-23 20:56:47.834 [main] TransfertApplication - app initialized
+[INFO ] 2021-10-23 21:24:33.408 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 12258 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 21:24:33.412 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 21:24:35.859 [main] TransfertApplication - Started TransfertApplication in 2.681 seconds (JVM running for 3.274)
+[INFO ] 2021-10-23 21:24:35.861 [main] TransfertApplication - app initialized
+[INFO ] 2021-10-23 21:35:56.888 [main] TransfertApplication - Starting TransfertApplication using Java 11.0.12 on fedora with PID 12794 (/home/alex/IdeaProjects/PayMyBuddy_transfert/transfert/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfert)
+[INFO ] 2021-10-23 21:35:56.895 [main] TransfertApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-10-23 21:35:59.095 [main] TransfertApplication - Started TransfertApplication in 2.438 seconds (JVM running for 3.052)
+[INFO ] 2021-10-23 21:35:59.096 [main] TransfertApplication - app initialized

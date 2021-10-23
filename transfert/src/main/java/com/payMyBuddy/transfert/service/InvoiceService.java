@@ -2,7 +2,6 @@ package com.payMyBuddy.transfert.service;
 
 import com.payMyBuddy.transfert.model.Invoice;
 import com.payMyBuddy.transfert.repository.InvoiceRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -10,8 +9,11 @@ import java.util.Optional;
 @Service
 public class InvoiceService {
 
-    @Autowired
-    private InvoiceRepository invoiceRepository;
+    private final InvoiceRepository invoiceRepository;
+
+    public InvoiceService(InvoiceRepository invoiceRepository) {
+        this.invoiceRepository = invoiceRepository;
+    }
 
     public Iterable<Invoice> getAllInvoices(){
       return invoiceRepository.findAll();

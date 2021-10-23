@@ -11,13 +11,13 @@ public class BankAccount {
     private long id;
     @Column(name = "iban")
     private String iban;
-    @Column(name = "userAccount_id")
-    private long idUserAccount;
+    @OneToOne
+    private UserAccount userAccount;
 
-    public BankAccount(long id, String iban, long idUserAccount) {
+    public BankAccount(long id, String iban, UserAccount userAccount) {
         this.id = id;
         this.iban = iban;
-        this.idUserAccount = idUserAccount;
+        this.userAccount = userAccount;
     }
 
     public long getId() {
@@ -36,11 +36,11 @@ public class BankAccount {
         this.iban = iban;
     }
 
-    public long getIdUserAccount() {
-        return idUserAccount;
+    public UserAccount getUserAccount() {
+        return userAccount;
     }
 
-    public void setIdUserAccount(long idUserAccount) {
-        this.idUserAccount = idUserAccount;
+    public void setUserAccount(UserAccount userAccount) {
+        this.userAccount = userAccount;
     }
 }
