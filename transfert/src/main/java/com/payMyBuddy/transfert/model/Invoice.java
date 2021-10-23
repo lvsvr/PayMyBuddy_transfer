@@ -10,19 +10,15 @@ public class Invoice {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private long id;
-//    private long transmitterId;
-//    private long receiverId;
-    @Column(name="transaction_id")
-    private long transactionId;
-//    private Date date;
-//    private float amount;
     @Column(name="deduction")
     private float deduction;
+    @OneToOne
+    private TransactionUserToBuddy transaction;
 
-    public Invoice(long id, long transactionId, float deduction) {
+    public Invoice(long id, float deduction, TransactionUserToBuddy transaction) {
         this.id = id;
-        this.transactionId = transactionId;
         this.deduction = deduction;
+        this.transaction = transaction;
     }
 
     public long getId() {
@@ -33,20 +29,20 @@ public class Invoice {
         this.id = id;
     }
 
-    public long getTransactionId() {
-        return transactionId;
-    }
-
-    public void setTransactionId(long transactionId) {
-        this.transactionId = transactionId;
-    }
-
     public float getDeduction() {
         return deduction;
     }
 
     public void setDeduction(float deduction) {
         this.deduction = deduction;
+    }
+
+    public TransactionUserToBuddy getTransaction() {
+        return transaction;
+    }
+
+    public void setTransaction(TransactionUserToBuddy transaction) {
+        this.transaction = transaction;
     }
 }
 

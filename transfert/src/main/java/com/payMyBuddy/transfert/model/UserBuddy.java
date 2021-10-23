@@ -9,15 +9,15 @@ public class UserBuddy {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private long id;
-    @Column(name ="userAccount_id")
-    private long idUserAccount;
-    @Column(name ="buddy_pmbUser_id")
-    private long idBuddy;
+    @OneToOne
+    private UserAccount userAccount;
+    @OneToOne
+    private User buddy;
 
-    public UserBuddy(long id, long idUserAccount, long idBuddy) {
+    public UserBuddy(long id, UserAccount userAccount, User buddy) {
         this.id = id;
-        this.idUserAccount = idUserAccount;
-        this.idBuddy = idBuddy;
+        this.userAccount = userAccount;
+        this.buddy = buddy;
     }
 
     public long getId() {
@@ -28,19 +28,19 @@ public class UserBuddy {
         this.id = id;
     }
 
-    public long getIdUserAccount() {
-        return idUserAccount;
+    public UserAccount getUserAccount() {
+        return userAccount;
     }
 
-    public void setIdUserAccount(long idUserAccount) {
-        this.idUserAccount = idUserAccount;
+    public void setUserAccount(UserAccount userAccount) {
+        this.userAccount = userAccount;
     }
 
-    public long getIdBuddy() {
-        return idBuddy;
+    public User getBuddy() {
+        return buddy;
     }
 
-    public void setIdBuddy(long idBuddy) {
-        this.idBuddy = idBuddy;
+    public void setBuddy(User buddy) {
+        this.buddy = buddy;
     }
 }

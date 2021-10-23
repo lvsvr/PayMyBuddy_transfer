@@ -9,7 +9,11 @@ import java.util.Optional;
 @Service
 public class UserBuddyService {
 
-    private UserBuddyRepository userBuddyRepository;
+    private  final UserBuddyRepository userBuddyRepository;
+
+    public UserBuddyService(UserBuddyRepository userBuddyRepository) {
+        this.userBuddyRepository = userBuddyRepository;
+    }
 
     public Iterable<UserBuddy> getAllUsers() {
         return userBuddyRepository.findAll();

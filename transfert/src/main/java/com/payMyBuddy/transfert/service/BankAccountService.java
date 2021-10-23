@@ -2,7 +2,6 @@ package com.payMyBuddy.transfert.service;
 
 import com.payMyBuddy.transfert.model.BankAccount;
 import com.payMyBuddy.transfert.repository.BankAccountRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -10,8 +9,11 @@ import java.util.Optional;
 @Service
 public class BankAccountService {
 
-    @Autowired
-    private BankAccountRepository bankAccountRepository;
+    private final BankAccountRepository bankAccountRepository;
+
+    public BankAccountService(BankAccountRepository bankAccountRepository) {
+        this.bankAccountRepository = bankAccountRepository;
+    }
 
     public Iterable<BankAccount> getAllBankAccounts() {
         return bankAccountRepository.findAll();

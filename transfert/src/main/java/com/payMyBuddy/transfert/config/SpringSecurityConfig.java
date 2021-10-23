@@ -1,4 +1,4 @@
-package com.payMyBuddy.transfert.configuration;
+package com.payMyBuddy.transfert.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("springUser").password(passwordEncoder().encode("spring123")).roles("USER")
+                .withUser("springUser").password(passwordEncoder().encode("user123")).roles("USER")
                 .and()
                 .withUser("springAdmin").password(passwordEncoder().encode("admin123")).roles("ADMIN", "USER");
     }

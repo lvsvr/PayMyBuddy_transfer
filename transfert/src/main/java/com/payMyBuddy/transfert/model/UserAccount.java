@@ -8,24 +8,24 @@ import java.util.ArrayList;
 public class UserAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="user_id")
+    @Column(name="userAccount_id")
     private long id;
-    @Column(name="id_pmbUser")
-    private long userId;
-//    private long bankAccount;
     @Column(name="balance")
     private double balance;
-//    @OneToMany(cascade=CascadeType.ALL, orphanRemoval = true, fetch=FetchType.EAGER)
-
-//    private ArrayList<User> buddyList;
+    @OneToOne
+    private User user;
+//    @OneToMany (cascade=CascadeType.ALL, orphanRemoval = true, fetch=FetchType.EAGER)
+//    private ArrayList <User> buddyList;
+//    @OneToMany
 //    private ArrayList<Transaction> history;
+//    @OneToMany
 //    private ArrayList<Invoice> invoiceList;
 
 
-    public UserAccount(long id, long userId, double balance) {
+    public UserAccount(long id, double balance, User user) {
         this.id = id;
-        this.userId = userId;
         this.balance = balance;
+        this.user = user;
     }
 
     public long getId() {
@@ -36,19 +36,19 @@ public class UserAccount {
         this.id = id;
     }
 
-    public long getUserId() {
-        return userId;
-    }
-
-    public void setUserId(long userId) {
-        this.userId = userId;
-    }
-
     public double getBalance() {
         return balance;
     }
 
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }
