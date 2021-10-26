@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PayMyBuddy_transfert.iml" filepath="$PROJECT_DIR$/.idea/PayMyBuddy_transfert.iml" />
-      <module fileurl="file://$PROJECT_DIR$/transfert/transfert.iml" filepath="$PROJECT_DIR$/transfert/transfert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PayMyBuddy_transfer.iml" filepath="$PROJECT_DIR$/.idea/PayMyBuddy_transfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transfert/transfer.iml" filepath="$PROJECT_DIR$/transfert/transfer.iml" />
     </modules>
   </component>
 </project>
