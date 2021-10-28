@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../static/css/bootstrap.css" type="text/css" th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link href="../static/css/style.css" type="text/css" th:href="@{/css/style.css}" rel="stylesheet"/>
+    <title>Pay My Buddy</title>
+</head>
+<body>
+<div class="logBox">
+    <form name="f" th:action="@{/logout}" method="post">
+        <fieldset>
+            <div class="logBox1">
+                <button type="button" class="col-gd-6 btn btn-success">Pay My Buddy</button>
+            </div>
+            <div class="row logBox5">
+                <div>
+                    <a href="./home" class="btn btn-secondary col-4" role="button" aria-pressed="true">Cancel</a>
+                    <button type="submit" class="form-actions col-4 btn btn-primary">Logout</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
