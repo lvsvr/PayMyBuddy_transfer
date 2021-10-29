@@ -16,17 +16,19 @@ public class User {
     private String lastName;
     @Column(name="password")
     private String password;
+    @Column(name="role")
+    private String role;
     @Column(name="phone")
     private String phone;
     @Column(name="birthdate")
     private Date birthdate;
 
-
-    public User(String email, String firstName, String lastName, String password, String phone, Date birthdate) {
+    public User(String email, String firstName, String lastName, String password, String role, String phone, Date birthdate) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
+        this.role = role;
         this.phone = phone;
         this.birthdate = birthdate;
     }
@@ -61,6 +63,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public String getPhone() {
