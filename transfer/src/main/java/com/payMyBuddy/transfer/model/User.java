@@ -8,14 +8,12 @@ import java.util.Date;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id")
-    private long id;
+    @Column(name="email")
+    private String email;
     @Column(name="firstname")
     private String firstName;
     @Column(name="lastname")
     private String lastName;
-    @Column(name="email")
-    private String email;
     @Column(name="password")
     private String password;
     @Column(name="phone")
@@ -23,22 +21,22 @@ public class User {
     @Column(name="birthdate")
     private Date birthdate;
 
-    public User(long id, String firstName, String lastName, String email, String password, String phone, Date birthdate) {
-        this.id = id;
+
+    public User(String email, String firstName, String lastName, String password, String phone, Date birthdate) {
+        this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.email = email;
         this.password = password;
         this.phone = phone;
         this.birthdate = birthdate;
     }
 
-    public long getId() {
-        return id;
+    public String getEmail() {
+        return email;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getFirstName() {
@@ -55,14 +53,6 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public String getPassword() {
