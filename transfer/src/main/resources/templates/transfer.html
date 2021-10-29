@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Pay My Buddy</title>
-    <link rel="stylesheet" href="./bootstrap.css">
-    <link rel="stylesheet" href="./style.css">
+    <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
 </head>
 <body>
 <header>
@@ -16,7 +16,7 @@
         <div class="col">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link disabled">Home</a>
+                    <a class="nav-link" href="./home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Transfer</a>
@@ -28,7 +28,7 @@
                     <a class="nav-link disabled">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Log off</a>
+                    <a class="nav-link" href="./logout">Log off</a>
                 </li>
             </ul>
         </div>
@@ -36,8 +36,8 @@
             <div class="row">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Transfer</li>
+                        <li class="breadcrumb-item"><a href="./home">Home</a></li>
+                        <li class="breadcrumb-item active" >Transfer</li>
                     </ol>
                 </nav>
             </div>
