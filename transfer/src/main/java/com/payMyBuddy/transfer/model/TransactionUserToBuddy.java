@@ -87,7 +87,7 @@ public class TransactionUserToBuddy extends Transaction{
         this.amount = amount1;
         this.userBuddy = userBuddy;
         this.transmitter = "transmitter (user account): " + userBuddy.getUserAccount();
-        this.receiver = "receiver: (buddy user account)" + userBuddy.getBuddy().getId();
+        this.receiver = "receiver: (buddy user account)" + userBuddy.getBuddy().getEmail();
 
 
     }
