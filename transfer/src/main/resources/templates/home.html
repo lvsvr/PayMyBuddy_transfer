@@ -43,6 +43,16 @@
         </div>
     </div>
 </header>
-<h2>Welcome, User </h2>
+<h2>Users' list </h2>
+    <table>
+        <tr>
+            <th>Email</th>
+        </tr>
+        <tr th:each = "user : ${userList}">
+            <td th:text="${user.email}"></td>
+        </tr>
+    </table>
+
+<p><a href="/registration">Add a user</a></p>
 </body>
 </html>

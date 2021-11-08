@@ -12,9 +12,9 @@ public class Invoice {
     @Column(name="deduction")
     private float deduction;
     @OneToOne
-    private TransactionUserToBuddy transaction;
+    private TransactionBuddy transaction;
 
-    public Invoice(long id, float deduction, TransactionUserToBuddy transaction) {
+    public Invoice(long id, float deduction, TransactionBuddy transaction) {
         this.id = id;
         this.deduction = deduction;
         this.transaction = transaction;
@@ -36,11 +36,11 @@ public class Invoice {
         this.deduction = deduction;
     }
 
-    public TransactionUserToBuddy getTransaction() {
+    public TransactionBuddy getTransaction() {
         return transaction;
     }
 
-    public void setTransaction(TransactionUserToBuddy transaction) {
+    public void setTransaction(TransactionBuddy transaction) {
         this.transaction = transaction;
     }
 }
