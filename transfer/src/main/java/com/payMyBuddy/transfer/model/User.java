@@ -7,7 +7,6 @@ import java.util.Date;
 @Table(name="pmb_user")
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="email")
     private String email;
     @Column(name="firstname")
@@ -20,17 +19,17 @@ public class User {
     private String role;
     @Column(name="phone")
     private String phone;
-    @Column(name="birthdate")
-    private Date birthdate;
 
-    public User(String email, String firstName, String lastName, String password, String role, String phone, Date birthdate) {
+    public User() {
+    }
+
+    public User(String email, String firstName, String lastName, String password, String role, String phone) {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
         this.password = password;
         this.role = role;
         this.phone = phone;
-        this.birthdate = birthdate;
     }
 
     public String getEmail() {
@@ -81,11 +80,15 @@ public class User {
         this.phone = phone;
     }
 
-    public Date getBirthdate() {
-        return birthdate;
-    }
-
-    public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", password='" + password + '\'' +
+                ", role='" + role + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
 }

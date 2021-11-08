@@ -8,31 +8,32 @@
     <title>Pay My Buddy</title>
 </head>
 <body>
-    <div class="logBox">
-        <form name="f" th:action="@{/login}" method="post">
-            <fieldset>
-                <div class="logBox1">
-                    <button type="button" class="col-gd-6 btn btn-success">Pay My Buddy</button>
+<div class="logBox">
+    <form name="f" th:action="@{/login}" method="post">
+        <fieldset>
+            <div class="logBox1">
+                <button type="button" class="col-gd-6 btn btn-success">Pay My Buddy</button>
+            </div>
+            <div class="logBox2">
+                <input type="text" id="username" name="username" placeholder="Email"/>
+            </div>
+            <div class="logBox3">
+                <input type="password" id="password" name="password" placeholder="Password"/>
+            </div>
+            <div class="logBox4">
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="col-gd-6 form-check-input" id="exampleCheck1"/>
+                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
                 </div>
-                <div class="logBox2">
-                    <input type="text" id="username" name="username" placeholder="Email"/>
+            </div>
+            <div class="logBox5">
+                <div class="form-actions">
+                    <a href="./registration" class="btn btn-secondary col-5" role="button" aria-pressed="true">registration</a>
+                    <button type="submit" class="col-5 btn btn-primary">Login</button>
                 </div>
-                <div class="logBox3">
-                    <input type="password" id="password" name="password" placeholder="Password"/>
-                </div>
-                <div class="logBox4">
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="col-gd-6 form-check-input" id="exampleCheck1"/>
-                        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                    </div>
-                </div>
-                <div class="logBox5">
-                    <div class="form-actions">
-                        <button type="submit" class="col-5 btn btn-primary">Login</button>
-                    </div>
-                </div>
-            </fieldset>
-        </form>
-    </div>
+            </div>
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
