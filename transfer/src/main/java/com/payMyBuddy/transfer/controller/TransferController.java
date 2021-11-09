@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class TransferController {
     @GetMapping("/transfer")
     public String transfer(){
+
         return "transfer";
 
 }

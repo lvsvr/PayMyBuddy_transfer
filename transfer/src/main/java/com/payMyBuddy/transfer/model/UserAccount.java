@@ -13,13 +13,9 @@ public class UserAccount {
     private double balance;
     @OneToOne
     private User user;
-//    @OneToMany (cascade=CascadeType.ALL, orphanRemoval = true, fetch=FetchType.EAGER)
-//    private ArrayList <User> buddyList;
-//    @OneToMany
-//    private ArrayList<Transaction> history;
-//    @OneToMany
-//    private ArrayList<Invoice> invoiceList;
 
+    public UserAccount() {
+    }
 
     public UserAccount(long id, double balance, User user) {
         this.id = id;
