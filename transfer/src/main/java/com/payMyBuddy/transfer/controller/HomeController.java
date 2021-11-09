@@ -1,13 +1,14 @@
 package com.payMyBuddy.transfer.controller;
 
+import com.payMyBuddy.transfer.auth.AppUser;
 import com.payMyBuddy.transfer.model.User;
+import com.payMyBuddy.transfer.model.UserAccount;
+import com.payMyBuddy.transfer.service.UserAccountService;
 import com.payMyBuddy.transfer.service.UserServiceImpl;
-import com.payMyBuddy.transfer.web.dto.UserRegistrationDto;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.ArrayList;
 
@@ -16,13 +17,18 @@ public class HomeController {
 
     private ArrayList<User> userList = new ArrayList<>();
     private UserServiceImpl userService;
+    private UserAccountService userAccountService;
 
-    public HomeController(UserServiceImpl userService) {
+    public HomeController(UserServiceImpl userService, UserAccountService userAccountService) {
         this.userService = userService;
+        this.userAccountService = userAccountService;
     }
 
     @GetMapping("/home")
-        public String goHome(Model model){
+        public String goHome(@AuthenticationPrincipal AppUser appUser,Model model){
+        String email = appUser.getUsername();
+        UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
+        model.addAttribute("balance", userAccount.getBalance());
         model.addAttribute("userList", userList);
         userList = (ArrayList<User>) userService.getAllUsers();
         return "home";

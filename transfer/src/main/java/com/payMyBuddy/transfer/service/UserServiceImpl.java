@@ -3,8 +3,6 @@ package com.payMyBuddy.transfer.service;
 import com.payMyBuddy.transfer.model.User;
 import com.payMyBuddy.transfer.repository.UserRepository;
 import com.payMyBuddy.transfer.web.dto.UserRegistrationDto;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -26,7 +24,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByEmail(email);
     }
 
-    public void save(UserRegistrationDto registration) {
+    public User save(UserRegistrationDto registration) {
         User user = new User();
         user.setFirstName(registration.getFirstName());
         user.setLastName(registration.getLastName());
@@ -35,6 +33,8 @@ public class UserServiceImpl implements UserService {
         user.setPhone(registration.getPhone());
         user.setRole("USER");
         userRepository.save(user);
+
+        return user;
     }
 
     public Iterable<User> getAllUsers() {

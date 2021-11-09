@@ -1,6 +1,7 @@
 package com.payMyBuddy.transfer.controller;
 
 import com.payMyBuddy.transfer.model.User;
+import com.payMyBuddy.transfer.service.UserAccountServiceImpl;
 import com.payMyBuddy.transfer.service.UserServiceImpl;
 import com.payMyBuddy.transfer.web.dto.UserRegistrationDto;
 import org.springframework.stereotype.Controller;
@@ -16,10 +17,12 @@ public class UserRegistrationController {
 
     private ArrayList<User> userList = new ArrayList<>();
     private UserServiceImpl userService;
+    private UserAccountServiceImpl userAccountService;
 
-    public UserRegistrationController(ArrayList<User> userList, UserServiceImpl userService) {
+    public UserRegistrationController(ArrayList<User> userList, UserServiceImpl userService, UserAccountServiceImpl userAccountService) {
         this.userList = userList;
         this.userService = userService;
+        this.userAccountService = userAccountService;
     }
 
     @GetMapping("/registration")
@@ -30,7 +33,7 @@ public class UserRegistrationController {
 
     @PostMapping("/addUser")
     public String addUser(@ModelAttribute UserRegistrationDto userDto ){
-        userService.save(userDto);
+        userAccountService.saveUserAccountForUser(userService.save(userDto));
 
 //        userList = (ArrayList<User>) userService.getAllUsers();
 //        userDtoList.add(userDto);
