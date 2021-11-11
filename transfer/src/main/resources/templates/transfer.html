@@ -49,21 +49,19 @@
     <div class="row"></div>
     <div class="row">
         <h4 class="col">Send Money</h4>
-        <button type="button" class="col-3 btn btn-primary">Add Connection</button>
+        <a href="./connection" class="btn btn-primary col-5" role="button" aria-pressed="true">Add Connection</a>
     </div>
 </div>
 <div class="position3">
     <div class="row">
-        <select class="col-3 form-select-sm">
-            <option selected>Select A Connection</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+        <form th:action="@{/transfer}" method="post" th:object="${buddy}">
+        <select class="col-3 form-select-sm" th:field="*{email}">
+            <option value="">Select A Connection</option>
+            <option th:each="buddy :${buddies}" th:value="${buddy.email}" th:text="${buddy.email}"></option>
         </select>
-        <br>
         <input class="col-3" id="amount" type="number" value="0">
-        <br>
         <button type="button" class="col-2 btn btn-success">Pay</button>
+        </form>
     </div>
 </div>
     <h4 class="position2">My Transactions</h4>

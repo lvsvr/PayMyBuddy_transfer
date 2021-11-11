@@ -76,3 +76,13 @@ padding-left: 15%;
 justify-content: center;
 }
 
+.positionBalance
+{
+width: 80%;
+background-color: #EEE;
+margin: auto;
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+justify-content: center;
+}

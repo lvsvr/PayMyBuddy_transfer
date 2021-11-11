@@ -14,6 +14,9 @@ public class UserBuddy {
     @OneToOne
     private User buddy;
 
+    public UserBuddy() {
+    }
+
     public UserBuddy(long id, UserAccount userAccount, User buddy) {
         this.id = id;
         this.userAccount = userAccount;
@@ -42,5 +45,14 @@ public class UserBuddy {
 
     public void setBuddy(User buddy) {
         this.buddy = buddy;
+    }
+
+    @Override
+    public String toString() {
+        return "UserBuddy{" +
+                "id=" + id +
+                ", userAccount=" + userAccount +
+                ", buddy=" + buddy +
+                '}';
     }
 }
