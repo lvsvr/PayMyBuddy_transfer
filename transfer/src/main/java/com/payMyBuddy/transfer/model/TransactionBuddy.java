@@ -20,12 +20,11 @@ public class TransactionBuddy extends Transaction{
     @OneToOne
     private UserBuddy userBuddy;
 
-    public TransactionBuddy(long id, Date date, float amount, String transmitter, String receiver) {
-        super(id, date, amount, transmitter, receiver);
+    public TransactionBuddy() {
     }
 
-    public TransactionBuddy(long id, Date date, float amount, String transmitter, String receiver, long id1, Date date1, float amount1, boolean fromUser, UserBuddy userBuddy) {
-        super(id, date, amount, transmitter, receiver);
+    public TransactionBuddy(long id, Date date, float amount, long id1, Date date1, float amount1, boolean fromUser, UserBuddy userBuddy) {
+        super(id, date, amount);
         this.id = id1;
         this.date = date1;
         this.amount = amount1;
@@ -77,5 +76,16 @@ public class TransactionBuddy extends Transaction{
 
     public void setUserBuddy(UserBuddy userBuddy) {
         this.userBuddy = userBuddy;
+    }
+
+    @Override
+    public String toString() {
+        return "TransactionBuddy{" +
+                "id=" + id +
+                ", date=" + date +
+                ", amount=" + amount +
+                ", fromUser=" + fromUser +
+                ", userBuddy=" + userBuddy +
+                '}';
     }
 }
