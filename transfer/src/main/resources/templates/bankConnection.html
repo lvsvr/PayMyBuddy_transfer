@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pay My Buddy</title>
+    <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
+</head>
+<body>
+<header>
+
+    <div class="row align-self-center">
+        <div class="col">
+            <button type="button" class="btn btn-success">Pay My Buddy</button>
+        </div>
+        <div class="col">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Transfer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./logout">Log off</a>
+                </li>
+            </ul>
+        </div>
+        <div class="position1">
+            <div class="row">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="./home">Home</a></li>
+                        <li class="breadcrumb-item active">bankConnection</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="logBox">
+    <div class="position2">
+            <div class="logBox2">
+            <h4>Add Iban</h4>
+
+            <form th:action="@{/addConnection}" method="post" th:object="${bankAccount}">
+                <input type="text" class="form-control" placeholder="iban" th:field="*{iban}" required
+                       autofocus="autofocus">
+                <br>
+                <br>
+                <a href="./home" class="btn btn-secondary col-5" role="button" aria-pressed="true">Cancel</a>
+                <button type="submit" class="col-5 btn btn-primary">Add</button>
+            </form>
+                </div>
+<!--            <form th:action="@{/connection}" method="post" th:object="${user}">-->
+<!--            <div class="logBox2">-->
+<!--                <div class="col-lg-10">-->
+<!--                    <select class="form-control">-->
+<!--                        <option>Select User</option>-->
+<!--                        <option th:each="user:${userList}" th:value="${user}" th:text="${user.email}"></option>-->
+<!--                        </select>-->
+<!--&lt;!&ndash;                    <input type="email" class="form-control" placeholder="${user.email}" th:field="*{email}" required autofocus="autofocus">&ndash;&gt;-->
+<!--                    <a href="./transfer" class="btn btn-secondary col-5" role="button" aria-pressed="true">Cancel</a>-->
+<!--                    <button type="submit" th:value="${email}" class="col-5 btn btn-primary">Add</button>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            </form>-->
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

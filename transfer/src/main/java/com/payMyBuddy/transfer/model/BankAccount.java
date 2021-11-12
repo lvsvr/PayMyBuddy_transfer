@@ -14,6 +14,9 @@ public class BankAccount {
     @OneToOne
     private UserAccount userAccount;
 
+    public BankAccount() {
+    }
+
     public BankAccount(long id, String iban, UserAccount userAccount) {
         this.id = id;
         this.iban = iban;
