@@ -25,7 +25,7 @@ public class UserBuddyService {
         ArrayList<UserBuddy> userBuddies = getAllUserBuddies();
         ArrayList<UserBuddy> userBuddiesByAccount = new ArrayList<UserBuddy>();
         for (UserBuddy userBuddy : userBuddies){
-            if (userBuddy.getUserAccount() == userAccount)
+            if (userBuddy.getUserAccount().equals(userAccount))
                 userBuddiesByAccount.add(userBuddy);
         }
         return userBuddiesByAccount;

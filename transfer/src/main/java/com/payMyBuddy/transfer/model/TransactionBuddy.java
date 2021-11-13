@@ -17,19 +17,20 @@ public class TransactionBuddy extends Transaction{
     private float amount;
     @Column(name="from_user")
     private boolean fromUser;
+    @Column(name="description")
+    private String description;
     @OneToOne
     private UserBuddy userBuddy;
 
-    public TransactionBuddy(long id, Date date, float amount, String transmitter, String receiver) {
-        super(id, date, amount, transmitter, receiver);
+    public TransactionBuddy() {
     }
 
-    public TransactionBuddy(long id, Date date, float amount, String transmitter, String receiver, long id1, Date date1, float amount1, boolean fromUser, UserBuddy userBuddy) {
-        super(id, date, amount, transmitter, receiver);
-        this.id = id1;
-        this.date = date1;
-        this.amount = amount1;
+    public TransactionBuddy(long id, Date date, float amount, boolean fromUser, String description, UserBuddy userBuddy) {
+        this.id = id;
+        this.date = date;
+        this.amount = amount;
         this.fromUser = fromUser;
+        this.description = description;
         this.userBuddy = userBuddy;
     }
 
@@ -69,6 +70,14 @@ public class TransactionBuddy extends Transaction{
 
     public void setFromUser(boolean fromUser) {
         this.fromUser = fromUser;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public UserBuddy getUserBuddy() {

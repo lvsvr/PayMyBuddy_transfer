@@ -1,7 +1,9 @@
 package com.payMyBuddy.transfer.service;
 
 import com.payMyBuddy.transfer.model.BankAccount;
+import com.payMyBuddy.transfer.model.TransactionBank;
 import com.payMyBuddy.transfer.model.UserAccount;
+import com.payMyBuddy.transfer.model.UserBuddy;
 import com.payMyBuddy.transfer.repository.BankAccountRepository;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +27,16 @@ public class BankAccountService {
                 ibans.add(bankAccount.getIban());
         }
         return ibans;
+    }
+
+    public ArrayList<BankAccount> getAllBankAccountsByUserAccount(UserAccount userAccount){
+        ArrayList<BankAccount> bankAccounts = getAllBankAccounts();
+        ArrayList<BankAccount> bankAccountsByAccount = new ArrayList<BankAccount>();
+        for (BankAccount bankAccount : bankAccounts){
+            if (bankAccount.getUserAccount().equals(userAccount))
+                bankAccountsByAccount.add(bankAccount);
+        }
+        return bankAccountsByAccount;
     }
 
     public ArrayList<BankAccount> getAllBankAccounts() {

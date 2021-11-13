@@ -20,12 +20,11 @@ public class TransactionBank extends Transaction{
     @OneToOne
     private BankAccount bankAccount;
 
-    public TransactionBank(long id, Date date, float amount, String transmitter, String receiver) {
-        super(id, date, amount, transmitter, receiver);
+    public TransactionBank(){
     }
 
-    public TransactionBank(long id, Date date, float amount, String transmitter, String receiver, long id1, Date date1, float amount1, boolean fromBank, BankAccount bankAccount) {
-        super(id, date, amount, transmitter, receiver);
+    public TransactionBank(long id, Date date, float amount, long id1, Date date1, float amount1, boolean fromBank, BankAccount bankAccount) {
+        super(id, date, amount);
         this.id = id1;
         this.date = date1;
         this.amount = amount1;
