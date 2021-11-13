@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Pay My Buddy</title>
-    <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet" />
-    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+    <link href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}" rel="stylesheet"/>
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
 </head>
 <body>
 <header>
@@ -19,13 +24,13 @@
                     <a class="nav-link" href="./home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Transfer</a>
+                    <a class="nav-link disabled" href="#">Transfer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Profile</a>
+                    <a class="nav-link" href="./profile">Profile</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled">Contact</a>
+                    <a class="nav-link" href="./contact">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./logout">Log off</a>
@@ -37,7 +42,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="./home">Home</a></li>
-                        <li class="breadcrumb-item active" >Transfer</li>
+                        <li class="breadcrumb-item active">Transfer</li>
                     </ol>
                 </nav>
             </div>
@@ -56,53 +61,60 @@
     <div class="row"></div>
     <div class="row">
         <form th:action="@{/addTransfer}" method="post" th:object="${transactionBuddy}">
-        <select class="col-3 form-select-sm" th:field="${transactionBuddy.userBuddy.buddy.email}">
-            <option value="">Select A Connection</option>
-            <option th:each="buddy:${buddies}" th:value="${buddy.email}" th:text="${buddy.email}"></option>
-        </select>
-        <input class="col-1 form-select-sm" th:field="${transactionBuddy.amount}" type="number" placeholder="0€" required autofocus="autofocus">
-            <input class="col-3 form-select-sm" th:field="${transactionBuddy.description}" type="text" placeholder="description" required autofocus="autofocus">
+            <select class="col-3 form-select-sm" th:field="${transactionBuddy.userBuddy.buddy.email}">
+                <option value="">Select A Connection</option>
+                <option th:each="buddy:${buddies}" th:value="${buddy.email}" th:text="${buddy.email}"></option>
+            </select>
+            <input class="col-1 form-select-sm" th:field="${transactionBuddy.amount}" type="number" placeholder="0€"
+                   required autofocus="autofocus">
+            <input class="col-3 form-select-sm" th:field="${transactionBuddy.description}" type="text"
+                   placeholder="description" required autofocus="autofocus">
             <button type="submit" class="col-2 form-select-sm btn btn-success">Pay</button>
         </form>
     </div>
 </div>
-    <h4 class="position2">My Transactions</h4>
-    <table class="table table-striped">
-        <thead>
-        <tr class="table1">
-            <th scope="col">Connections</th>
-            <th scope="col">Description</th>
-            <th scope="col">Amount</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <th scope="row">name1</th>
-            <td>description1</td>
-            <td>amount1</td>
-        </tr>
-        <tr>
-            <th scope="row">name2</th>
-            <td>description2</td>
-            <td>amount2</td>
-        </tr>
-        <tr>
-            <th scope="row">name3</th>
-            <td>description3</td>
-            <td>amount3</td>
-        </tr>
-        </tbody>
-    </table>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-            <li class="page-item"><a class="page-link" href="#"><<</a></li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item"><a class="page-link" href="#">>></a></li>
-        </ul>
-    </nav>
+<h4 class="position2">My Transactions</h4>
+<div class="position2">
+<table id="transactionTable" class="table table-fluid table-striped">
+    <thead>
+    <tr class="table1">
+        <th data-field="Connection" scope="col">Connections</th>
+        <th data-field="Description" scope="col">Descriptions</th>
+        <th data-field="Amount" scope="col">Amounts</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="transactionBuddy:${transactionBuddies}">
+        <th scope="row" th:text="${transactionBuddy.userBuddy.buddy.email}"></th>
+        <td th:text="${transactionBuddy.description}"></td>
+        <td th:text="${transactionBuddy.amount}"></td>
+    </tr>
+    <!--        <tr>-->
+    <!--            <th scope="row">name2</th>-->
+    <!--            <td>description2</td>-->
+    <!--            <td>amount2</td>-->
+    <!--        </tr>-->
+    <!--        <tr>-->
+    <!--            <th scope="row">name3</th>-->
+    <!--            <td>description3</td>-->
+    <!--            <td>amount3</td>-->
+    <!--        </tr>-->
+    </tbody>
+</table>
+<!--    <nav aria-label="Page navigation example">-->
+<!--        <ul class="pagination justify-content-center">-->
+<!--            <li class="page-item"><a class="page-link" href="#"><<</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">1</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">2</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">3</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">4</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">5</a></li>-->
+<!--            <li class="page-item"><a class="page-link" href="#">>></a></li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+</div>
+<script>
+$(document).ready(function(){$('#transactionTable').DataTable();});
+</script>
 </body>
 </html>

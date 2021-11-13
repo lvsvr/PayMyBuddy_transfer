@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 
 @Controller
@@ -50,6 +51,10 @@ public class TransferController {
         model.addAttribute("transactionBuddy", transactionBuddy);
         model.addAttribute("buddies", buddies);
         model.addAttribute("buddy", buddy);
+        ArrayList<TransactionBuddy> transactionBuddies = (ArrayList<TransactionBuddy>) transactionBuddyService.getAllTransactions();
+        Collections collection = null;
+        collection.reverse(transactionBuddies);
+        model.addAttribute("transactionBuddies", transactionBuddies);
         logger.info("getTest");
         return "transfer";
 
