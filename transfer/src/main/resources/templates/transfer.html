@@ -60,8 +60,9 @@
             <option value="">Select A Connection</option>
             <option th:each="buddy:${buddies}" th:value="${buddy.email}" th:text="${buddy.email}"></option>
         </select>
-        <input class="col-3 form-select-sm" th:field="${transactionBuddy.amount}" type="number" required autofocus="autofocus">
-        <button type="submit" class="col-2 form-select-sm btn btn-success">Pay</button>
+        <input class="col-1 form-select-sm" th:field="${transactionBuddy.amount}" type="number" placeholder="0€" required autofocus="autofocus">
+            <input class="col-3 form-select-sm" th:field="${transactionBuddy.description}" type="text" placeholder="description" required autofocus="autofocus">
+            <button type="submit" class="col-2 form-select-sm btn btn-success">Pay</button>
         </form>
     </div>
 </div>

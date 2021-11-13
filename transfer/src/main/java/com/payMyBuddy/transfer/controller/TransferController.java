@@ -59,6 +59,7 @@ public class TransferController {
     public String createTransfer(@AuthenticationPrincipal AppUser appUser, Model model, @ModelAttribute User buddy, @ModelAttribute TransactionBuddy transactionBuddy) {
         model.addAttribute("transactionBuddy", transactionBuddy);
         model.addAttribute("amount", transactionBuddy.getAmount());
+        model.addAttribute("description", transactionBuddy.getDescription());
         logger.info(transactionBuddy.getAmount());
         logger.info(transactionBuddy.getUserBuddy().getBuddy().getEmail());
         String email = appUser.getUsername();
@@ -71,6 +72,8 @@ public class TransferController {
         Date date = new Date();
         transactionBuddy.setDate(date);
         transactionBuddy.setFromUser(true);
+        userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount());
+        userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
         TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);
         logger.info(transactionBuddy);
         return "redirect:/transfer";

@@ -48,6 +48,7 @@ public class BankConnectionController {
         logger.info(userAccount);
 
         bankAccountService.addBankAccount(bankAccount);
+        logger.info(bankAccount.getIban());
         return "redirect:/home";
     }
 }
