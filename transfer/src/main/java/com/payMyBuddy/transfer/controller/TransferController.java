@@ -77,7 +77,7 @@ public class TransferController {
         Date date = new Date();
         transactionBuddy.setDate(date);
         transactionBuddy.setFromUser(true);
-        userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount());
+        userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount() - (0.005*transactionBuddy.getAmount()));
         userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
         TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);
         logger.info(transactionBuddy);

@@ -1,5 +1,7 @@
 package com.payMyBuddy.transfer.model;
 
+import org.hibernate.validator.constraints.UniqueElements;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -7,7 +9,10 @@ import java.util.Date;
 @Table(name="pmb_user")
 public class User {
     @Id
-    @Column(name="email")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="userAccount_id")
+    private long id;
+    @Column
     private String email;
     @Column(name="firstname")
     private String firstName;
