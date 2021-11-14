@@ -33,7 +33,7 @@ public class UserRegistrationController {
 
     @PostMapping("/addUser")
     public String addUser(@ModelAttribute UserRegistrationDto userDto ){
-        userAccountService.saveUserAccountForUser(userService.save(userDto));
+        userAccountService.saveUserAccountForUser(userService.addUser(userDto));
 
 //        userList = (ArrayList<User>) userService.getAllUsers();
 //        userDtoList.add(userDto);

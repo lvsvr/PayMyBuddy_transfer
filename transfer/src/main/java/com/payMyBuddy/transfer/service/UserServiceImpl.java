@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByEmail(email);
     }
 
-    public User save(UserRegistrationDto registration) {
+    public User addUser(UserRegistrationDto registration) {
         User user = new User();
         user.setFirstName(registration.getFirstName());
         user.setLastName(registration.getLastName());
@@ -33,9 +33,29 @@ public class UserServiceImpl implements UserService {
         user.setPhone(registration.getPhone());
         user.setRole("USER");
         userRepository.save(user);
-
         return user;
     }
+
+//    public UserRegistrationDto convertUserToUserDto(User user){
+//        UserRegistrationDto userDto = new UserRegistrationDto();
+//        userDto.setFirstName(user.getFirstName());
+//        userDto.setLastName(user.getLastName());
+//        userDto.setEmail(user.getEmail());
+//        userDto.setPassword(passwordEncoder.encode(user.getPassword()));
+//        userDto.setPhone(user.getPhone());
+//
+//        return userDto;
+//    }
+//
+    public void updateUser(User user, User updatedUser) {
+        user.setFirstName(updatedUser.getFirstName());
+        user.setLastName(updatedUser.getLastName());
+        user.setEmail(updatedUser.getEmail());
+        user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
+        user.setPhone(updatedUser.getPhone());
+        user.setRole("USER");
+    }
+
 
     public Iterable<User> getAllUsers() {
         return userRepository.findAll();
@@ -45,8 +65,8 @@ public class UserServiceImpl implements UserService {
         return userRepository.findById(email);
     }
 
-    public User addUser(User user) {
-        return userRepository.save(user);
+    public void updateUser(User user) {
+        userRepository.save(user);
     }
 
     public void deleteUserById(String email) {
