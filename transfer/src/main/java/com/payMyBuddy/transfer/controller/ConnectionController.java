@@ -24,7 +24,7 @@ public class ConnectionController {
     private static final Logger logger = LogManager.getLogger(TransferApplication.class);
 
     @ModelAttribute("allUsers")
-    public ArrayList<User> returnUsers(){
+    public ArrayList<User> returnUsers() {
         return (ArrayList<User>) userService.getAllUsers();
     }
 
@@ -35,15 +35,13 @@ public class ConnectionController {
     public ConnectionController(UserServiceImpl userService, UserAccountServiceImpl userAccountService, UserBuddyService userBuddyService) {
         this.userService = userService;
         this.userAccountService = userAccountService;
-
         this.userBuddyService = userBuddyService;
     }
 
     @GetMapping("/connection")
-    public String findConnection(@ModelAttribute("allUsers")ArrayList<User>userList, Model model, User user){
+    public String findConnection(@ModelAttribute("allUsers") ArrayList<User> userList, Model model, User user) {
         model.addAttribute("userList", userList);
         model.addAttribute("user", new User());
-        logger.info("getTest");
         return "connection";
     }
 

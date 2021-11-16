@@ -25,24 +25,26 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="4019608b-897f-4c5f-af3c-001bbe18200f">
-        <schema name="public" object-types="table, view, sequence, function" />
+      <connection connection-id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2">
+        <schema name="pg_catalog" object-types="function" />
+        <schema name="public" object-types="table, view, sequence, function, constraint, index, column, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="4019608b-897f-4c5f-af3c-001bbe18200f">
-      <console name="Connection" type="STANDARD" schema="" session="Main" />
+    <connection id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2">
+      <console name="payMyBuddy_db" type="STANDARD" schema="information_schema" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="4019608b-897f-4c5f-af3c-001bbe18200f" />
+    <connection id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="4019608b-897f-4c5f-af3c-001bbe18200f" dataset="public.user_buddy" active-filter-id="" />
+    <filter-actions connection-id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2" dataset="public.user_buddy" active-filter-id="" />
+    <filter-actions connection-id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2" dataset="public.bank_account" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -70,9 +72,9 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="4019608b-897f-4c5f-af3c-001bbe18200f" active="true">
+      <connection id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2" active="true">
         <database>
-          <name value="Connection" />
+          <name value="db_payMyBuddy" />
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />

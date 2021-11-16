@@ -18,6 +18,7 @@ public class TransactionBank extends Transaction{
     @Column(name="from_bank")
     private boolean fromBank;
     @OneToOne
+    @JoinColumn(name = "bankAccount_id")
     private BankAccount bankAccount;
 
     public TransactionBank(){

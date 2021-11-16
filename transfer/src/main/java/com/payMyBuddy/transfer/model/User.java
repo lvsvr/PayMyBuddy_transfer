@@ -1,18 +1,15 @@
 package com.payMyBuddy.transfer.model;
 
-import org.hibernate.validator.constraints.UniqueElements;
-
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @Table(name="pmb_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="userAccount_id")
+    @Column(name="user_id")
     private long id;
-    @Column
+    @Column(name="email", unique = true)
     private String email;
     @Column(name="firstname")
     private String firstName;
@@ -20,15 +17,28 @@ public class User {
     private String lastName;
     @Column(name="password")
     private String password;
-    @Column(name="role")
+    @Column(name="user_role")
     private String role;
     @Column(name="phone")
     private String phone;
 
+    @OneToOne(orphanRemoval = true)
+    @JoinColumn(name = "user_id_user_account_id", unique = true)
+    private UserAccount user_id;
+
+    public UserAccount getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(UserAccount user_id) {
+        this.user_id = user_id;
+    }
+
     public User() {
     }
 
-    public User(String email, String firstName, String lastName, String password, String role, String phone) {
+    public User(long id, String email, String firstName, String lastName, String password, String role, String phone) {
+        this.id = id;
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;

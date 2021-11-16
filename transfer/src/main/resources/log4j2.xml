@@ -19,7 +19,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.payMyBuddy.transfert" level="debug" additivity="false">
+        <Logger name="com.payMyBuddy.transfer" level="debug" additivity="false">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="fileLogger" />
         </Logger>

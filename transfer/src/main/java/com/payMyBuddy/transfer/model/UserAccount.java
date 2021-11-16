@@ -12,6 +12,7 @@ public class UserAccount {
     @Column(name="balance")
     private double balance;
     @OneToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     public UserAccount() {
@@ -45,5 +46,14 @@ public class UserAccount {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    @Override
+    public String toString() {
+        return "UserAccount{" +
+                "id=" + id +
+                ", balance=" + balance +
+                ", user=" + user +
+                '}';
     }
 }

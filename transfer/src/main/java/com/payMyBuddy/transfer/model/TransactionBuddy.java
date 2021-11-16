@@ -20,6 +20,7 @@ public class TransactionBuddy extends Transaction{
     @Column(name="description")
     private String description;
     @OneToOne
+    @JoinColumn(name = "userBuddy_id")
     private UserBuddy userBuddy;
 
     public TransactionBuddy() {

@@ -1,0 +1,75 @@
+[INFO ] 2021-11-14 19:42:29.911 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 77384 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 19:42:29.914 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 19:42:32.745 [main] TransferApplicationTests - Started TransferApplicationTests in 2.996 seconds (JVM running for 3.964)
+[INFO ] 2021-11-14 19:42:57.114 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 77523 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 19:42:57.116 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 19:43:00.014 [main] TransferApplicationTests - Started TransferApplicationTests in 3.067 seconds (JVM running for 4.036)
+[INFO ] 2021-11-14 20:09:02.016 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 80923 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 20:09:02.034 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:09:04.219 [main] TransferApplicationTests - Started TransferApplicationTests in 2.337 seconds (JVM running for 3.209)
+[INFO ] 2021-11-14 20:09:48.005 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 81113 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 20:09:48.009 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:09:50.341 [main] TransferApplicationTests - Started TransferApplicationTests in 2.502 seconds (JVM running for 3.366)
+[INFO ] 2021-11-14 20:24:17.321 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 83197 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[DEBUG] 2021-11-14 20:24:17.323 [main] TransferApplicationTests - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2021-11-14 20:24:17.325 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:24:44.141 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 83329 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[DEBUG] 2021-11-14 20:24:44.142 [main] TransferApplicationTests - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2021-11-14 20:24:44.144 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:27:02.756 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 83681 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[DEBUG] 2021-11-14 20:27:02.757 [main] TransferApplicationTests - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2021-11-14 20:27:02.760 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:29:47.459 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 84148 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[DEBUG] 2021-11-14 20:29:47.461 [main] TransferApplicationTests - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2021-11-14 20:29:47.463 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:31:37.197 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 84444 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[DEBUG] 2021-11-14 20:31:37.198 [main] TransferApplicationTests - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2021-11-14 20:31:37.200 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:32:07.763 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 84614 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 20:32:07.777 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:32:10.187 [main] TransferApplicationTests - Started TransferApplicationTests in 2.571 seconds (JVM running for 3.457)
+[INFO ] 2021-11-14 20:47:44.349 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 88322 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 20:47:44.364 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 20:47:47.097 [main] TransferApplicationTests - Started TransferApplicationTests in 2.902 seconds (JVM running for 3.773)
+[INFO ] 2021-11-14 21:00:44.286 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 89825 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:00:44.289 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:00:46.843 [main] TransferApplicationTests - Started TransferApplicationTests in 2.759 seconds (JVM running for 3.759)
+[INFO ] 2021-11-14 21:02:18.260 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 90272 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:02:18.264 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:02:20.907 [main] TransferApplicationTests - Started TransferApplicationTests in 2.861 seconds (JVM running for 3.823)
+[INFO ] 2021-11-14 21:10:55.802 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 91388 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:10:55.811 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:10:58.382 [main] TransferApplicationTests - Started TransferApplicationTests in 2.739 seconds (JVM running for 3.701)
+[INFO ] 2021-11-14 21:11:11.578 [main] UserServiceImplTest - Starting UserServiceImplTest using Java 11.0.12 on fedora with PID 91502 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:11:11.581 [main] UserServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:11:14.053 [main] UserServiceImplTest - Started UserServiceImplTest in 2.64 seconds (JVM running for 3.544)
+[INFO ] 2021-11-14 21:12:48.396 [main] UserServiceImplTest - Starting UserServiceImplTest using Java 11.0.12 on fedora with PID 91761 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:12:48.410 [main] UserServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:12:50.944 [main] UserServiceImplTest - Started UserServiceImplTest in 2.704 seconds (JVM running for 3.571)
+[INFO ] 2021-11-14 21:14:03.479 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 92006 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:14:03.483 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:14:07.485 [main] TransferApplicationTests - Started TransferApplicationTests in 4.273 seconds (JVM running for 5.795)
+[INFO ] 2021-11-14 21:16:43.345 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 92382 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:16:43.348 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:16:45.929 [main] TransferApplicationTests - Started TransferApplicationTests in 2.737 seconds (JVM running for 3.797)
+[INFO ] 2021-11-14 21:24:32.931 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 93324 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:24:32.934 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:24:35.469 [main] TransferApplicationTests - Started TransferApplicationTests in 2.713 seconds (JVM running for 3.733)
+[INFO ] 2021-11-14 21:29:09.035 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 93901 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:29:09.038 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:29:11.490 [main] TransferApplicationTests - Started TransferApplicationTests in 2.606 seconds (JVM running for 3.556)
+[INFO ] 2021-11-14 21:31:07.394 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 94235 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:31:07.398 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:31:11.066 [main] TransferApplicationTests - Started TransferApplicationTests in 3.941 seconds (JVM running for 5.278)
+[INFO ] 2021-11-14 21:31:35.766 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 94395 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:31:35.770 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:31:39.757 [main] TransferApplicationTests - Started TransferApplicationTests in 4.292 seconds (JVM running for 5.595)
+[INFO ] 2021-11-14 21:38:42.887 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 95345 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:38:42.889 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:38:45.417 [main] TransferApplicationTests - Started TransferApplicationTests in 2.697 seconds (JVM running for 3.703)
+[INFO ] 2021-11-14 21:39:40.788 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 95534 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:39:40.791 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:39:43.223 [main] TransferApplicationTests - Started TransferApplicationTests in 2.584 seconds (JVM running for 3.464)
+[INFO ] 2021-11-14 21:40:53.455 [main] TransferApplicationTests - Starting TransferApplicationTests using Java 11.0.12 on fedora with PID 95755 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-14 21:40:53.457 [main] TransferApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-14 21:40:55.982 [main] TransferApplicationTests - Started TransferApplicationTests in 2.685 seconds (JVM running for 3.642)
