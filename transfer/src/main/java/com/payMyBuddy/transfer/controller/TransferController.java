@@ -74,10 +74,12 @@ public class TransferController {
         Date date = new Date();
         transactionBuddy.setDate(date);
         transactionBuddy.setDescription(transactionBuddy.getDate() + " -- " + "from: " + transactionBuddy.getUserBuddy().getUserAccount().getUser().getEmail() + " -- " + transactionBuddy.getDescription());
-
+        if (transactionBuddy.getAmount()<=0)
+            return "redirect:/transfer";
+        else{
         userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount() - (0.005*transactionBuddy.getAmount()));
         userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
-        TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);
+        TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);}
         logger.info(transactionBuddy);
         return "redirect:/transfer";
     }
