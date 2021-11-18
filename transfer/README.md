@@ -22,7 +22,7 @@ Prototype: web application Java with Spring Boot
 **Diagramme de classe**
 
 ---
-![] (https://github.com/w-boar/PayMyBuddy_transfer/blob/develop/transfer/src/main/resources/project/DiagrammeDeClasse.png)
+
 ___
 
 **Modèle physique de données**
