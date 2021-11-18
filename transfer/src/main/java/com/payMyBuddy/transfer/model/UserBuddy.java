@@ -3,22 +3,23 @@ package com.payMyBuddy.transfer.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name="user_buddy")
+@Table(name="user_buddy", indexes = {@Index( columnList = "userAccount_id, user_id", unique = true)})
 public class UserBuddy {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private long id;
     @OneToOne
+    @JoinColumn(name = "userAccount_id")
     private UserAccount userAccount;
     @OneToOne
+    @JoinColumn(name = "user_id")
     private User buddy;
 
     public UserBuddy() {
     }
 
-    public UserBuddy(long id, UserAccount userAccount, User buddy) {
-        this.id = id;
+    public UserBuddy(UserAccount userAccount, User buddy) {
         this.userAccount = userAccount;
         this.buddy = buddy;
     }

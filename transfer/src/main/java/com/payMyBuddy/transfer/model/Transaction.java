@@ -1,6 +1,5 @@
 package com.payMyBuddy.transfer.model;
 
-import javax.persistence.*;
 import java.util.Date;
 
 public class Transaction {

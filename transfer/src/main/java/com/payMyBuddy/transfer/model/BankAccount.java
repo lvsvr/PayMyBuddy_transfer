@@ -3,7 +3,8 @@ package com.payMyBuddy.transfer.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name="bank_account")
+@Table(name="bank_account", uniqueConstraints=
+@UniqueConstraint(columnNames={"iban", "userAccount_id"}))
 public class BankAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,6 +13,7 @@ public class BankAccount {
     @Column(name = "iban")
     private String iban;
     @OneToOne
+    @JoinColumn(name = "userAccount_id")
     private UserAccount userAccount;
 
     public BankAccount() {

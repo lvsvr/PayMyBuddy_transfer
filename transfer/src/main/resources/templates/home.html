@@ -61,12 +61,14 @@
     <br>
     <div class="position3">
         <form th:action="@{/addBankTransfer}" method="post" th:object="${transactionBank}">
-        <select class="col-10 form-select-sm" th:field="${transactionBank.bankAccount.iban}">
-            <option value="">Select Bank Accounts</option>
-            <option th:each="bankAccount:${bankAccounts}" th:value="${bankAccount.iban}" th:text="${bankAccount.iban}"></option>
-        </select>
-        <input class="col-10 form-select-sm" th:field="${transactionBank.amount}" type="number" required autofocus="autofocus">
-        <button type="submit" class="col-10 btn btn-success">Send</button>
+            <select class="col-10 form-select-sm" th:field="${transactionBank.bankAccount.iban}">
+                <option value="">Select Bank Accounts</option>
+                <option th:each="bankAccount:${bankAccounts}" th:value="${bankAccount.iban}"
+                        th:text="${bankAccount.iban}"></option>
+            </select>
+            <input class="col-10 form-select-sm" th:field="${transactionBank.amount}" type="number" required
+                   autofocus="autofocus">
+            <button type="submit" class="col-10 btn btn-success">Send</button>
         </form>
     </div>
     <br>

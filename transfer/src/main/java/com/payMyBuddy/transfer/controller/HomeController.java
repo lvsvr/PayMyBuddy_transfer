@@ -51,8 +51,6 @@ public class HomeController {
 
        @PostMapping("/addBankTransfer")
         public String createBankTransfer(@AuthenticationPrincipal AppUser appUser, Model model, @ModelAttribute BankAccount bankAccount, @ModelAttribute TransactionBank transactionBank){
-//           model.addAttribute("bankAccount", bankAccount);
-//           model.addAttribute("amount", transactionBank.getAmount());
            logger.info(transactionBank.getAmount());
            logger.info(transactionBank.getBankAccount().getIban());
            String email = appUser.getUsername();
@@ -66,8 +64,11 @@ public class HomeController {
            Date date = new Date();
            transactionBank.setDate(date);
            transactionBank.setFromBank(false);
+           if (transactionBank.getAmount()<=0)
+               return "redirect:/home";
+           else{
            userAccount.setBalance(userAccount.getBalance() - transactionBank.getAmount());
-           TransactionBank savedTransactionBank = transactionBankService.addTransaction(transactionBank);
+           TransactionBank savedTransactionBank = transactionBankService.addTransaction(transactionBank);}
            logger.info(transactionBank);
         return "redirect:/home";
        }

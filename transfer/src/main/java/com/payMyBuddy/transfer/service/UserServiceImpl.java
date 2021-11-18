@@ -6,8 +6,6 @@ import com.payMyBuddy.transfer.web.dto.UserRegistrationDto;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -36,42 +34,22 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
-//    public UserRegistrationDto convertUserToUserDto(User user){
-//        UserRegistrationDto userDto = new UserRegistrationDto();
-//        userDto.setFirstName(user.getFirstName());
-//        userDto.setLastName(user.getLastName());
-//        userDto.setEmail(user.getEmail());
-//        userDto.setPassword(passwordEncoder.encode(user.getPassword()));
-//        userDto.setPhone(user.getPhone());
-//
-//        return userDto;
-//    }
-//
-    public void updateUser(User user, User updatedUser) {
+
+    public void updateUserByCloningUpdatedUser(User user, User updatedUser) {
         user.setFirstName(updatedUser.getFirstName());
         user.setLastName(updatedUser.getLastName());
         user.setEmail(updatedUser.getEmail());
         user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
         user.setPhone(updatedUser.getPhone());
         user.setRole("USER");
+        userRepository.save(user);
     }
-
 
     public Iterable<User> getAllUsers() {
         return userRepository.findAll();
     }
 
-    public Optional<User> getUserByEmail(String email) {
-        return userRepository.findById(email);
-    }
-
-    public void updateUser(User user) {
-        userRepository.save(user);
-    }
-
-    public void deleteUserById(String email) {
-        userRepository.deleteById(email);
-    }
 }
+
 
 

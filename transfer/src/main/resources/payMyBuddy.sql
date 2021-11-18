@@ -1,0 +1,143 @@
+--
+--CREATE SEQUENCE public.pmb_user_id_seq;
+--
+--CREATE TABLE public.pmb_user (
+--                user_id INTEGER NOT NULL DEFAULT nextval('public.pmb_user_id_seq'),
+--                firstName VARCHAR(25) NOT NULL,
+--                lastName VARCHAR(25) NOT NULL,
+--                email VARCHAR(100) NOT NULL,
+--                password VARCHAR(100) NOT NULL,
+--                phone VARCHAR(25),
+--                user_role VARCHAR(25) NOT NULL,
+--                CONSTRAINT pmb_user_pk PRIMARY KEY (user_id)
+--);
+--
+--
+--ALTER SEQUENCE public.pmb_user_id_seq OWNED BY public.pmb_user.user_id;
+--
+--CREATE UNIQUE INDEX pmb_user_idx
+-- ON public.pmb_user
+-- ( email );
+--
+--CREATE SEQUENCE public.user_account_user_id_seq;
+--
+--CREATE TABLE public.user_account (
+--                userAccount_id INTEGER NOT NULL DEFAULT nextval('public.user_account_user_id_seq'),
+--                user_id INTEGER NOT NULL,
+--                balance NUMERIC(7,2),
+--                CONSTRAINT user_account_pk PRIMARY KEY (userAccount_id)
+--);
+--
+--
+--ALTER SEQUENCE public.user_account_user_id_seq OWNED BY public.user_account.userAccount_id;
+--
+--CREATE SEQUENCE public.user_buddy_userbuddy_id_seq;
+--
+--CREATE TABLE public.user_buddy (
+--                userBuddy_id INTEGER NOT NULL DEFAULT nextval('public.user_buddy_userbuddy_id_seq'),
+--                userAccount_id INTEGER NOT NULL,
+--                user_id INTEGER NOT NULL,
+--                CONSTRAINT user_buddy_pk PRIMARY KEY (userBuddy_id)
+--);
+--
+--
+--ALTER SEQUENCE public.user_buddy_userbuddy_id_seq OWNED BY public.user_buddy.userBuddy_id;
+--
+--CREATE UNIQUE INDEX user_buddy_idx
+-- ON public.user_buddy
+-- ( userAccount_id, user_id );
+--
+--CREATE SEQUENCE public.transaction_buddy_transaction_id_seq;
+--
+--CREATE TABLE public.transaction_buddy (
+--                transaction_id INTEGER NOT NULL DEFAULT nextval('public.transaction_buddy_transaction_id_seq'),
+--                date DATE NOT NULL,
+--                amount NUMERIC(7,2) NOT NULL,
+--                from_user BOOLEAN NOT NULL,
+--                description VARCHAR(250) NOT NULL,
+--                userBuddy_id INTEGER NOT NULL,
+--                CONSTRAINT transaction_buddy_pk PRIMARY KEY (transaction_id)
+--);
+--
+--
+--ALTER SEQUENCE public.transaction_buddy_transaction_id_seq OWNED BY public.transaction_buddy.transaction_id;
+--
+--CREATE INDEX transaction_buddy_idx
+-- ON public.transaction_buddy
+-- ( transaction_id DESC );
+--
+--CREATE SEQUENCE public.bank_account_banaccount_id_seq;
+--
+--CREATE TABLE public.bank_account (
+--                bankAccount_id INTEGER NOT NULL DEFAULT nextval('public.bank_account_banaccount_id_seq'),
+--                iban VARCHAR(50) NOT NULL,
+--                userAccount_id INTEGER NOT NULL,
+--                CONSTRAINT bank_account_pk PRIMARY KEY (bankAccount_id)
+--);
+--
+--
+--ALTER SEQUENCE public.bank_account_banaccount_id_seq OWNED BY public.bank_account.bankAccount_id;
+--
+--CREATE UNIQUE INDEX bank_account_idx
+-- ON public.bank_account
+-- ( iban, userAccount_id );
+--
+--CREATE SEQUENCE public.transaction_bank_to_user_id_seq;
+--
+--CREATE TABLE public.transaction_bank (
+--                transaction_id INTEGER NOT NULL DEFAULT nextval('public.transaction_bank_to_user_id_seq'),
+--                date DATE NOT NULL,
+--                amount NUMERIC(7,2) NOT NULL,
+--                from_bank BOOLEAN NOT NULL,
+--                bankAccount_id INTEGER NOT NULL,
+--                CONSTRAINT transaction_bank_pk PRIMARY KEY (transaction_id)
+--);
+--
+--
+--ALTER SEQUENCE public.transaction_bank_to_user_id_seq OWNED BY public.transaction_bank.transaction_id;
+--
+--CREATE INDEX transaction_bank_idx
+-- ON public.transaction_bank
+-- ( transaction_id DESC );
+--
+--ALTER TABLE public.user_account ADD CONSTRAINT pmb_user_user_account_fk
+--FOREIGN KEY (user_id)
+--REFERENCES public.pmb_user (user_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;
+--
+--ALTER TABLE public.user_buddy ADD CONSTRAINT pmb_user_user_buddy_fk
+--FOREIGN KEY (user_id)
+--REFERENCES public.pmb_user (user_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;
+--
+--ALTER TABLE public.bank_account ADD CONSTRAINT user_account_bank_account_fk
+--FOREIGN KEY (userAccount_id)
+--REFERENCES public.user_account (userAccount_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;
+--
+--ALTER TABLE public.user_buddy ADD CONSTRAINT user_account_user_buddy_fk
+--FOREIGN KEY (userAccount_id)
+--REFERENCES public.user_account (userAccount_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;
+--
+--ALTER TABLE public.transaction_buddy ADD CONSTRAINT user_buddy_transaction_user_to_buddy_fk
+--FOREIGN KEY (userBuddy_id)
+--REFERENCES public.user_buddy (userBuddy_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;
+--
+--ALTER TABLE public.transaction_bank ADD CONSTRAINT bank_account_transaction_bank_to_user_fk
+--FOREIGN KEY (bankAccount_id)
+--REFERENCES public.bank_account (bankAccount_id)
+--ON DELETE NO ACTION
+--ON UPDATE NO ACTION
+--NOT DEFERRABLE;

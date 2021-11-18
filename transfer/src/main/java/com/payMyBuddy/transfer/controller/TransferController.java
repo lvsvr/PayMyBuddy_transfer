@@ -43,17 +43,15 @@ public class TransferController {
     public String getTransferPage(Model model, @AuthenticationPrincipal AppUser appUser, User buddy, TransactionBuddy transactionBuddy) {
         String email = appUser.getUsername();
         UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
-        ArrayList<UserBuddy> userBuddies = userBuddyService.getAllBuddiesByUserAccount(userAccount);
-        ArrayList<User> buddies = new ArrayList<User>();
-        for (UserBuddy userBuddy : userBuddies) {
-            buddies.add(userBuddy.getBuddy());
-        }
+
+        ArrayList<User> buddies = userBuddyService.getAllBuddiesByUserAccount(userAccount);
+
         model.addAttribute("transactionBuddy", transactionBuddy);
         model.addAttribute("buddies", buddies);
         model.addAttribute("buddy", buddy);
-        ArrayList<TransactionBuddy> transactionBuddies = (ArrayList<TransactionBuddy>) transactionBuddyService.getAllTransactions();
-        Collections collection = null;
-        collection.reverse(transactionBuddies);
+
+        ArrayList<TransactionBuddy> transactionBuddies = transactionBuddyService.getAllTransactionsByUserAccount(userAccount);
+
         model.addAttribute("transactionBuddies", transactionBuddies);
         logger.info("getTest");
         return "transfer";
@@ -63,23 +61,25 @@ public class TransferController {
     @PostMapping("/addTransfer")
     public String createTransfer(@AuthenticationPrincipal AppUser appUser, Model model, @ModelAttribute User buddy, @ModelAttribute TransactionBuddy transactionBuddy) {
         model.addAttribute("transactionBuddy", transactionBuddy);
-        model.addAttribute("amount", transactionBuddy.getAmount());
-        model.addAttribute("description", transactionBuddy.getDescription());
         logger.info(transactionBuddy.getAmount());
         logger.info(transactionBuddy.getUserBuddy().getBuddy().getEmail());
         String email = appUser.getUsername();
         UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
-        ArrayList<UserBuddy> userBuddies = userBuddyService.getAllBuddiesByUserAccount(userAccount);
+
+        ArrayList<UserBuddy> userBuddies = userBuddyService.getAllUserBuddiesByUserAccount(userAccount);
         for(UserBuddy userBuddy : userBuddies){
             if(userBuddy.getBuddy().getEmail().equals(transactionBuddy.getUserBuddy().getBuddy().getEmail()))
                 transactionBuddy.setUserBuddy(userBuddy);
         }
         Date date = new Date();
         transactionBuddy.setDate(date);
-        transactionBuddy.setFromUser(true);
+        transactionBuddy.setDescription(transactionBuddy.getDate() + " -- " + "from: " + transactionBuddy.getUserBuddy().getUserAccount().getUser().getEmail() + " -- " + transactionBuddy.getDescription());
+        if (transactionBuddy.getAmount()<=0)
+            return "redirect:/transfer";
+        else{
         userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount() - (0.005*transactionBuddy.getAmount()));
         userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
-        TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);
+        TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);}
         logger.info(transactionBuddy);
         return "redirect:/transfer";
     }

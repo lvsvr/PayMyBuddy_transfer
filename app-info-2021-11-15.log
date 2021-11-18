@@ -1,0 +1,184 @@
+[INFO ] 2021-11-15 11:10:15.593 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 27268 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 11:10:15.600 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 11:10:17.956 [main] TransferApplication - Started TransferApplication in 2.591 seconds (JVM running for 3.222)
+[INFO ] 2021-11-15 11:10:17.958 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 11:10:44.275 [http-nio-8080-exec-2] TransferApplication - User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$Uc.eDFyFoutdpGpX9X7NKOikrcVA.6t0bAYgLJOQXkz5rhpjn8z1K', role='USER', phone='06'}
+[INFO ] 2021-11-15 11:10:44.275 [http-nio-8080-exec-2] TransferApplication - User{email='user2@spring.omg', firstName='user', lastName='0', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 11:10:44.345 [http-nio-8080-exec-2] TransferApplication - null
+[INFO ] 2021-11-15 11:10:44.345 [http-nio-8080-exec-2] TransferApplication - User{email='user2@spring.omg', firstName='user', lastName='0', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 11:12:40.504 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 27581 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 11:12:40.509 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 11:12:42.849 [main] TransferApplication - Started TransferApplication in 2.582 seconds (JVM running for 3.171)
+[INFO ] 2021-11-15 11:12:42.851 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 11:13:16.756 [http-nio-8080-exec-10] TransferApplication - User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$ClQRxNQ2C5PDB/QRR0qP5.iFxg2tmrobi.pcR50WMtiM73MkRzjze', role='USER', phone='06'}
+[INFO ] 2021-11-15 11:13:16.756 [http-nio-8080-exec-10] TransferApplication - User{email='user2@spring.omg', firstName='user', lastName='0', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 11:13:16.826 [http-nio-8080-exec-10] TransferApplication - User{email='user2@spring.omg', firstName='user', lastName='0', password='$2a$10$YJ8ji3IR87ylKNd2SyFkv.dvPdryynDe57VoUFJxf/tZm94Enl3Z6', role='USER', phone='06'}
+[INFO ] 2021-11-15 11:15:48.712 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 27933 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 11:15:48.717 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 11:15:51.158 [main] TransferApplication - Started TransferApplication in 2.699 seconds (JVM running for 3.279)
+[INFO ] 2021-11-15 11:15:51.161 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 11:16:24.313 [http-nio-8080-exec-10] TransferApplication - user before update: User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$mOgqwtu3lqCbgteWQyfknOFir44ct9vj/rPtbIOAVJdC88SphUPTm', role='USER', phone='06'}
+[INFO ] 2021-11-15 11:16:24.313 [http-nio-8080-exec-10] TransferApplication - update:User{email='user2@spring.omg', firstName='u', lastName='2', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 11:16:24.383 [http-nio-8080-exec-10] TransferApplication - user has been updated: User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$AAW8evz62q73ftnAiy7IBemXx3OSOlLlmi6Hzo2MW2RXXAmawzL4q', role='USER', phone='06'}
+[INFO ] 2021-11-15 16:52:09.042 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 70923 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 16:52:09.050 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 16:52:11.432 [main] TransferApplication - Started TransferApplication in 2.658 seconds (JVM running for 3.265)
+[INFO ] 2021-11-15 16:52:11.434 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 16:52:35.337 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-15 16:52:37.576 [http-nio-8080-exec-1] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$xm2SwtSteP4rkj6e8L34ze/kxC8JO.EQo4ZNvpZv9cGheBBwRQdGe', role='USER', phone='06'}}
+[INFO ] 2021-11-15 16:52:37.580 [http-nio-8080-exec-1] TransferApplication - iban
+[INFO ] 2021-11-15 16:52:43.295 [http-nio-8080-exec-5] TransferApplication - 5.0
+[INFO ] 2021-11-15 16:52:43.295 [http-nio-8080-exec-5] TransferApplication - iban
+[INFO ] 2021-11-15 16:52:43.298 [http-nio-8080-exec-5] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$xm2SwtSteP4rkj6e8L34ze/kxC8JO.EQo4ZNvpZv9cGheBBwRQdGe', role='USER', phone='06'}}
+[INFO ] 2021-11-15 16:52:43.309 [http-nio-8080-exec-5] TransferApplication - TransactionBank{id=1, date=Mon Nov 15 16:52:43 CET 2021, amount=5.0, fromBank=false, bankAccount=com.payMyBuddy.transfer.model.BankAccount@6afe42ba}
+[INFO ] 2021-11-15 16:52:44.823 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-15 16:52:48.871 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-15 16:52:51.319 [http-nio-8080-exec-5] TransferApplication - userName: user@spring.omg - buddy: user@spring.omg
+[INFO ] 2021-11-15 16:52:51.331 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-15 16:52:57.576 [http-nio-8080-exec-9] TransferApplication - 50.0
+[INFO ] 2021-11-15 16:52:57.577 [http-nio-8080-exec-9] TransferApplication - 
+[INFO ] 2021-11-15 16:53:01.369 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 16:53:09.135 [http-nio-8080-exec-3] TransferApplication - 10.0
+[INFO ] 2021-11-15 16:53:09.136 [http-nio-8080-exec-3] TransferApplication - user@spring.omg
+[INFO ] 2021-11-15 16:53:09.143 [http-nio-8080-exec-3] TransferApplication - Transaction{id=0, date=null, amount=0.0}
+[INFO ] 2021-11-15 16:53:09.153 [http-nio-8080-exec-2] TransferApplication - getTest
+[INFO ] 2021-11-15 16:53:31.129 [http-nio-8080-exec-3] TransferApplication - user before update: User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$xm2SwtSteP4rkj6e8L34ze/kxC8JO.EQo4ZNvpZv9cGheBBwRQdGe', role='USER', phone='06'}
+[INFO ] 2021-11-15 16:53:31.129 [http-nio-8080-exec-3] TransferApplication - update:User{email='user2@spring.omg', firstName='u', lastName='2', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 16:53:31.196 [http-nio-8080-exec-3] TransferApplication - user has been updated: User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$K2YbzGUTQP4.ttBM.8/wbuz3V9rHl8I5fxb9j0q0GHu37l4qsR6ei', role='USER', phone='06'}
+[INFO ] 2021-11-15 17:43:58.205 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 76708 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 17:43:58.211 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 17:44:00.558 [main] TransferApplication - Started TransferApplication in 2.598 seconds (JVM running for 3.21)
+[INFO ] 2021-11-15 17:44:00.561 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 17:44:39.950 [http-nio-8080-exec-8] TransferApplication - getTest
+[INFO ] 2021-11-15 17:44:41.023 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 17:44:43.597 [http-nio-8080-exec-3] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
+[INFO ] 2021-11-15 17:44:43.612 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-15 17:44:55.216 [http-nio-8080-exec-8] TransferApplication - 10.0
+[INFO ] 2021-11-15 17:44:55.216 [http-nio-8080-exec-8] TransferApplication - user2@spring.omg
+[INFO ] 2021-11-15 17:44:55.228 [http-nio-8080-exec-8] TransferApplication - Transaction{id=0, date=null, amount=0.0}
+[INFO ] 2021-11-15 17:44:55.238 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-15 17:44:58.048 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-15 17:45:44.207 [http-nio-8080-exec-4] TransferApplication - userName: user@spring.omg - buddy: user@spring.omg
+[INFO ] 2021-11-15 17:45:44.220 [http-nio-8080-exec-5] TransferApplication - getTest
+[INFO ] 2021-11-15 17:46:03.373 [http-nio-8080-exec-6] TransferApplication - 20.0
+[INFO ] 2021-11-15 17:46:03.373 [http-nio-8080-exec-6] TransferApplication - user@spring.omg
+[INFO ] 2021-11-15 17:46:03.380 [http-nio-8080-exec-6] TransferApplication - Transaction{id=0, date=null, amount=0.0}
+[INFO ] 2021-11-15 17:46:03.389 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 19:38:28.931 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 82527 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 19:38:28.937 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 19:38:31.271 [main] TransferApplication - Started TransferApplication in 2.592 seconds (JVM running for 3.172)
+[INFO ] 2021-11-15 19:38:31.273 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 19:54:09.722 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 83577 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 19:54:09.726 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 19:54:12.042 [main] TransferApplication - Started TransferApplication in 2.583 seconds (JVM running for 3.2)
+[INFO ] 2021-11-15 19:54:12.044 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 20:04:25.921 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-15 20:04:28.713 [http-nio-8080-exec-1] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$FS6sm.Bv81x9MyDGHUMPU.Sjb4k/IxNHTtBVfIwvAvz.AZcTF8V2i', role='USER', phone='06'}}
+[INFO ] 2021-11-15 20:04:28.716 [http-nio-8080-exec-1] TransferApplication - iban
+[INFO ] 2021-11-15 20:04:34.646 [http-nio-8080-exec-6] TransferApplication - 5.0
+[INFO ] 2021-11-15 20:04:34.647 [http-nio-8080-exec-6] TransferApplication - iban
+[INFO ] 2021-11-15 20:04:34.653 [http-nio-8080-exec-6] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$FS6sm.Bv81x9MyDGHUMPU.Sjb4k/IxNHTtBVfIwvAvz.AZcTF8V2i', role='USER', phone='06'}}
+[INFO ] 2021-11-15 20:04:34.672 [http-nio-8080-exec-6] TransferApplication - TransactionBank{id=1, date=Mon Nov 15 20:04:34 CET 2021, amount=5.0, fromBank=false, bankAccount=com.payMyBuddy.transfer.model.BankAccount@cd6683a}
+[INFO ] 2021-11-15 20:04:38.330 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-15 20:04:43.821 [http-nio-8080-exec-6] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:01.496 [http-nio-8080-exec-5] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:04.532 [http-nio-8080-exec-6] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
+[INFO ] 2021-11-15 20:05:04.558 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:13.148 [http-nio-8080-exec-5] TransferApplication - 50.0
+[INFO ] 2021-11-15 20:05:13.149 [http-nio-8080-exec-5] TransferApplication - user2@spring.omg
+[INFO ] 2021-11-15 20:05:13.163 [http-nio-8080-exec-5] TransferApplication - Transaction{id=0, date=null, amount=0.0}
+[INFO ] 2021-11-15 20:05:13.175 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:21.763 [http-nio-8080-exec-2] TransferApplication - 10.0
+[INFO ] 2021-11-15 20:05:21.763 [http-nio-8080-exec-2] TransferApplication - user2@spring.omg
+[INFO ] 2021-11-15 20:05:21.775 [http-nio-8080-exec-2] TransferApplication - Transaction{id=0, date=null, amount=0.0}
+[INFO ] 2021-11-15 20:05:21.786 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:38.525 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 20:05:53.674 [http-nio-8080-exec-7] TransferApplication - user before update: User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$FS6sm.Bv81x9MyDGHUMPU.Sjb4k/IxNHTtBVfIwvAvz.AZcTF8V2i', role='USER', phone='06'}
+[INFO ] 2021-11-15 20:05:53.674 [http-nio-8080-exec-7] TransferApplication - update:User{email='user3@spring.omg', firstName='user', lastName='0', password='123', role='null', phone='06'}
+[INFO ] 2021-11-15 20:05:53.753 [http-nio-8080-exec-7] TransferApplication - user has been updated: User{email='user3@spring.omg', firstName='user', lastName='0', password='$2a$10$CBf87Jhxr/jYv51Y4tytqORn7.qODD/A5yinIx8BlfzQVIrbe7ohi', role='USER', phone='06'}
+[INFO ] 2021-11-15 20:06:09.194 [http-nio-8080-exec-6] TransferApplication - getTest
+[INFO ] 2021-11-15 20:07:07.593 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-15 20:07:11.614 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-15 20:07:14.031 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 20:07:22.293 [http-nio-8080-exec-2] TransferApplication - getTest
+[INFO ] 2021-11-15 20:08:57.230 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-15 20:12:13.234 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-15 20:33:17.947 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 85375 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 20:33:17.956 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 20:33:20.986 [main] TransferApplication - Started TransferApplication in 3.388 seconds (JVM running for 4.185)
+[INFO ] 2021-11-15 20:33:20.988 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 20:35:05.628 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-15 20:35:07.935 [http-nio-8080-exec-1] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$OmIv1/cmHRQuIt/6f3YVeuHEWqKlPFRfYs8mnl.si0xwOBAtI4jiK', role='USER', phone='06'}}
+[INFO ] 2021-11-15 20:35:07.941 [http-nio-8080-exec-1] TransferApplication - iban
+[INFO ] 2021-11-15 20:35:15.510 [http-nio-8080-exec-5] TransferApplication - 50.0
+[INFO ] 2021-11-15 20:35:15.510 [http-nio-8080-exec-5] TransferApplication - 
+[INFO ] 2021-11-15 20:35:15.519 [http-nio-8080-exec-5] TransferApplication - null
+[INFO ] 2021-11-15 20:35:23.335 [http-nio-8080-exec-9] TransferApplication - 50.0
+[INFO ] 2021-11-15 20:35:23.335 [http-nio-8080-exec-9] TransferApplication - iban
+[INFO ] 2021-11-15 20:35:23.342 [http-nio-8080-exec-9] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$OmIv1/cmHRQuIt/6f3YVeuHEWqKlPFRfYs8mnl.si0xwOBAtI4jiK', role='USER', phone='06'}}
+[INFO ] 2021-11-15 20:35:23.354 [http-nio-8080-exec-9] TransferApplication - TransactionBank{id=2, date=Mon Nov 15 20:35:23 CET 2021, amount=50.0, fromBank=false, bankAccount=com.payMyBuddy.transfer.model.BankAccount@24b96ca5}
+[INFO ] 2021-11-15 20:42:28.997 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-15 20:58:27.266 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 88385 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 20:58:27.272 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 20:58:29.739 [main] TransferApplication - Started TransferApplication in 2.726 seconds (JVM running for 3.336)
+[INFO ] 2021-11-15 20:58:29.741 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 20:59:21.763 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 88633 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 20:59:21.768 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 20:59:24.197 [main] TransferApplication - Started TransferApplication in 2.714 seconds (JVM running for 3.331)
+[INFO ] 2021-11-15 20:59:24.199 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:01:10.631 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 89030 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:01:10.637 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:01:12.991 [main] TransferApplication - Started TransferApplication in 2.637 seconds (JVM running for 3.269)
+[INFO ] 2021-11-15 21:01:12.994 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:03:02.417 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 89390 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:03:02.422 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:03:04.768 [main] TransferApplication - Started TransferApplication in 2.616 seconds (JVM running for 3.212)
+[INFO ] 2021-11-15 21:03:04.770 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:05:19.076 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 89784 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:05:19.082 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:05:21.523 [main] TransferApplication - Started TransferApplication in 2.693 seconds (JVM running for 3.336)
+[INFO ] 2021-11-15 21:05:21.526 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:09:35.829 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 90463 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:09:35.834 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:09:38.240 [main] TransferApplication - Started TransferApplication in 2.675 seconds (JVM running for 3.279)
+[INFO ] 2021-11-15 21:09:38.242 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:14:11.631 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 91127 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:14:11.638 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:14:14.069 [main] TransferApplication - Started TransferApplication in 2.716 seconds (JVM running for 3.296)
+[INFO ] 2021-11-15 21:14:14.071 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:16:46.647 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 91629 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:16:46.652 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:16:49.108 [main] TransferApplication - Started TransferApplication in 2.71 seconds (JVM running for 3.322)
+[INFO ] 2021-11-15 21:16:49.110 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:23:56.429 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 92754 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:23:56.435 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:23:58.951 [main] TransferApplication - Started TransferApplication in 2.783 seconds (JVM running for 3.458)
+[INFO ] 2021-11-15 21:23:58.953 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:24:59.170 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 92995 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:24:59.175 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:25:01.587 [main] TransferApplication - Started TransferApplication in 2.68 seconds (JVM running for 3.285)
+[INFO ] 2021-11-15 21:25:01.589 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:31:00.426 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 93821 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:31:00.433 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:31:02.925 [main] TransferApplication - Started TransferApplication in 2.756 seconds (JVM running for 3.369)
+[INFO ] 2021-11-15 21:31:02.928 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:36:11.093 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 94615 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:36:11.098 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:36:13.602 [main] TransferApplication - Started TransferApplication in 2.796 seconds (JVM running for 3.388)
+[INFO ] 2021-11-15 21:36:13.604 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:43:15.290 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 95561 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:43:15.297 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:43:17.672 [main] TransferApplication - Started TransferApplication in 2.641 seconds (JVM running for 3.228)
+[INFO ] 2021-11-15 21:43:17.674 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 21:49:12.804 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 96346 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 21:49:12.809 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 21:49:15.332 [main] TransferApplication - Started TransferApplication in 2.778 seconds (JVM running for 3.394)
+[INFO ] 2021-11-15 21:49:15.335 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 22:01:04.652 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 98056 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 22:01:04.658 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 22:01:07.051 [main] TransferApplication - Started TransferApplication in 2.652 seconds (JVM running for 3.247)
+[INFO ] 2021-11-15 22:01:07.053 [main] TransferApplication - app initialized
+[INFO ] 2021-11-15 22:12:30.675 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 99928 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-15 22:12:30.679 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-15 22:12:33.067 [main] TransferApplication - Started TransferApplication in 2.706 seconds (JVM running for 3.308)
+[INFO ] 2021-11-15 22:12:33.069 [main] TransferApplication - app initialized

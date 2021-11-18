@@ -4,32 +4,31 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="transaction_buddy")
-public class TransactionBuddy extends Transaction{
+@Table(name = "transaction_buddy")
+public class TransactionBuddy extends Transaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="transaction_id")
+    @Column(name = "transaction_id")
     private long id;
-    @Column(name="date")
+    @Column(name = "date")
     private Date date;
-    @Column(name="amount")
+    @Column(name = "amount")
     private float amount;
-    @Column(name="from_user")
-    private boolean fromUser;
-    @Column(name="description")
+    @Column(name = "description")
     private String description;
     @OneToOne
+    @JoinColumn(name = "userBuddy_id")
     private UserBuddy userBuddy;
 
     public TransactionBuddy() {
     }
 
-    public TransactionBuddy(long id, Date date, float amount, boolean fromUser, String description, UserBuddy userBuddy) {
-        this.id = id;
-        this.date = date;
-        this.amount = amount;
-        this.fromUser = fromUser;
+    public TransactionBuddy(long id, Date date, float amount, long id1, Date date1, float amount1, String description, UserBuddy userBuddy) {
+        super(id, date, amount);
+        this.id = id1;
+        this.date = date1;
+        this.amount = amount1;
         this.description = description;
         this.userBuddy = userBuddy;
     }
@@ -64,14 +63,6 @@ public class TransactionBuddy extends Transaction{
         this.amount = amount;
     }
 
-    public boolean isFromUser() {
-        return fromUser;
-    }
-
-    public void setFromUser(boolean fromUser) {
-        this.fromUser = fromUser;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -86,5 +77,16 @@ public class TransactionBuddy extends Transaction{
 
     public void setUserBuddy(UserBuddy userBuddy) {
         this.userBuddy = userBuddy;
+    }
+
+    @Override
+    public String toString() {
+        return "TransactionBuddy{" +
+                "id=" + id +
+                ", date=" + date +
+                ", amount=" + amount +
+                ", description='" + description + '\'' +
+                ", userBuddy=" + userBuddy +
+                '}';
     }
 }

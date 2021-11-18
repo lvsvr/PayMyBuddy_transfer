@@ -1,0 +1,233 @@
+[INFO ] 2021-11-16 13:49:45.973 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 26546 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 13:49:45.980 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 13:49:49.844 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.128 seconds (JVM running for 5.501)
+[INFO ] 2021-11-16 13:49:50.985 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 26546 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 13:49:50.987 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 13:49:51.952 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.988 seconds (JVM running for 7.609)
+[INFO ] 2021-11-16 14:00:23.724 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 28078 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:00:23.728 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:00:26.269 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.712 seconds (JVM running for 3.602)
+[INFO ] 2021-11-16 14:01:01.578 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 28225 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:01:01.585 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:01:04.140 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.715 seconds (JVM running for 3.594)
+[INFO ] 2021-11-16 14:01:24.866 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 28366 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:01:24.880 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:01:27.539 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.828 seconds (JVM running for 3.755)
+[INFO ] 2021-11-16 14:02:14.468 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 28580 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:02:14.473 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:02:17.069 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.772 seconds (JVM running for 3.662)
+[INFO ] 2021-11-16 14:02:36.874 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 28704 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:02:36.877 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:02:39.468 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 2.764 seconds (JVM running for 3.694)
+[INFO ] 2021-11-16 14:02:40.389 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 28704 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:02:40.391 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:02:41.171 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.796 seconds (JVM running for 5.396)
+[INFO ] 2021-11-16 14:04:11.479 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 28979 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:04:11.494 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:04:14.032 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 2.698 seconds (JVM running for 3.577)
+[INFO ] 2021-11-16 14:12:09.334 [main] UserServiceImplTest - Starting UserServiceImplTest using Java 11.0.13 on fedora with PID 30037 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:12:09.344 [main] UserServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:12:11.832 [main] UserServiceImplTest - Started UserServiceImplTest in 2.655 seconds (JVM running for 3.554)
+[INFO ] 2021-11-16 14:12:22.528 [main] UserServiceImplTest - Starting UserServiceImplTest using Java 11.0.13 on fedora with PID 30144 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:12:22.541 [main] UserServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:12:25.290 [main] UserServiceImplTest - Started UserServiceImplTest in 2.908 seconds (JVM running for 3.889)
+[INFO ] 2021-11-16 14:12:48.305 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 30285 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:12:48.316 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:12:50.827 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.667 seconds (JVM running for 3.571)
+[INFO ] 2021-11-16 14:14:41.655 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 30613 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:14:41.661 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:14:44.041 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.532 seconds (JVM running for 3.362)
+[INFO ] 2021-11-16 14:17:27.363 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 31096 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:17:27.367 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:17:29.727 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.529 seconds (JVM running for 3.425)
+[INFO ] 2021-11-16 14:18:08.818 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 31249 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:18:08.831 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:18:11.181 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.503 seconds (JVM running for 3.378)
+[INFO ] 2021-11-16 14:18:25.046 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 31365 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:18:25.049 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:18:27.425 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.537 seconds (JVM running for 3.403)
+[INFO ] 2021-11-16 14:18:45.362 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 31681 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:18:45.365 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:18:48.927 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 3.789 seconds (JVM running for 5.057)
+[INFO ] 2021-11-16 14:18:49.951 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 31681 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:18:49.952 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:18:50.852 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.933 seconds (JVM running for 6.982)
+[INFO ] 2021-11-16 14:19:52.535 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 32120 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:19:52.539 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:19:55.144 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.805 seconds (JVM running for 3.75)
+[INFO ] 2021-11-16 14:20:13.736 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 32475 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:20:13.741 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:20:17.899 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.441 seconds (JVM running for 5.799)
+[INFO ] 2021-11-16 14:20:18.886 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 32475 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 14:20:18.887 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 14:20:19.688 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.817 seconds (JVM running for 7.588)
+[INFO ] 2021-11-16 15:08:21.751 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 37909 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:08:21.756 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:08:23.924 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.33 seconds (JVM running for 3.192)
+[INFO ] 2021-11-16 15:09:07.084 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 38072 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:09:07.095 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:09:09.533 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.59 seconds (JVM running for 3.467)
+[INFO ] 2021-11-16 15:09:49.625 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 38230 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:09:49.630 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:09:52.166 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.693 seconds (JVM running for 3.57)
+[INFO ] 2021-11-16 15:11:38.946 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 38528 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:11:38.960 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:11:41.278 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.486 seconds (JVM running for 3.378)
+[INFO ] 2021-11-16 15:14:25.848 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 38916 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:14:25.861 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:14:28.306 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.61 seconds (JVM running for 3.485)
+[INFO ] 2021-11-16 15:15:28.964 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 39282 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:15:28.969 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:15:32.363 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 3.619 seconds (JVM running for 4.982)
+[INFO ] 2021-11-16 15:15:33.373 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 39282 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:15:33.375 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:15:34.324 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.974 seconds (JVM running for 6.943)
+[INFO ] 2021-11-16 15:18:25.258 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 39887 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:18:25.261 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:18:27.873 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.796 seconds (JVM running for 3.75)
+[INFO ] 2021-11-16 15:21:45.651 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 40356 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:21:45.655 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:21:48.325 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.854 seconds (JVM running for 3.798)
+[INFO ] 2021-11-16 15:21:48.647 [main] TransferApplication - []
+[INFO ] 2021-11-16 15:22:57.344 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 40580 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:22:57.350 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:22:59.975 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.789 seconds (JVM running for 3.67)
+[INFO ] 2021-11-16 15:23:00.317 [main] TransferApplication - []
+[INFO ] 2021-11-16 15:30:42.612 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 41505 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:30:42.626 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:30:45.346 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.903 seconds (JVM running for 3.797)
+[INFO ] 2021-11-16 15:33:04.156 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 41871 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:33:04.158 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:33:06.702 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.745 seconds (JVM running for 3.766)
+[INFO ] 2021-11-16 15:34:32.740 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 42120 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:34:32.743 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:34:35.381 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.788 seconds (JVM running for 3.665)
+[INFO ] 2021-11-16 15:42:58.611 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 43152 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:42:58.614 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:43:01.313 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.843 seconds (JVM running for 3.716)
+[INFO ] 2021-11-16 15:47:46.324 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 43806 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:47:46.339 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:47:48.774 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.596 seconds (JVM running for 3.565)
+[INFO ] 2021-11-16 15:48:36.709 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 43978 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:48:36.722 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:48:39.388 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.849 seconds (JVM running for 3.754)
+[INFO ] 2021-11-16 15:48:53.271 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 44271 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:48:53.276 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:48:57.224 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.174 seconds (JVM running for 5.748)
+[INFO ] 2021-11-16 15:48:58.370 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 44271 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:48:58.371 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:48:59.397 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 1.046 seconds (JVM running for 7.921)
+[INFO ] 2021-11-16 15:56:41.815 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 46042 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 15:56:41.818 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 15:56:44.418 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.778 seconds (JVM running for 3.764)
+[INFO ] 2021-11-16 16:04:51.497 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 47071 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:04:51.512 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:04:54.078 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.725 seconds (JVM running for 3.599)
+[INFO ] 2021-11-16 16:06:56.175 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 47393 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:06:56.187 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:06:58.759 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.751 seconds (JVM running for 3.731)
+[INFO ] 2021-11-16 16:10:42.250 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 47895 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:10:42.261 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:10:44.894 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.809 seconds (JVM running for 3.696)
+[INFO ] 2021-11-16 16:15:15.727 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 48481 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:15:15.740 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:15:18.300 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.728 seconds (JVM running for 3.647)
+[INFO ] 2021-11-16 16:16:09.470 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 48660 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:16:09.474 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:16:12.070 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.781 seconds (JVM running for 3.647)
+[INFO ] 2021-11-16 16:19:45.793 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 49146 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:19:45.798 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:19:48.379 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.76 seconds (JVM running for 3.672)
+[INFO ] 2021-11-16 16:20:16.859 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 49556 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:20:16.863 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:20:21.212 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.639 seconds (JVM running for 6.19)
+[INFO ] 2021-11-16 16:20:22.390 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 49556 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:20:22.391 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:20:23.388 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 1.018 seconds (JVM running for 8.366)
+[INFO ] 2021-11-16 16:42:59.046 [main] UserBuddyServiceTest - Starting UserBuddyServiceTest using Java 11.0.13 on fedora with PID 52807 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 16:42:59.049 [main] UserBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 16:43:01.565 [main] UserBuddyServiceTest - Started UserBuddyServiceTest in 2.667 seconds (JVM running for 3.591)
+[INFO ] 2021-11-16 17:43:46.121 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 59772 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:43:46.124 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:43:48.624 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.673 seconds (JVM running for 3.755)
+[INFO ] 2021-11-16 17:44:07.037 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 59895 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:44:07.048 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:44:09.622 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.77 seconds (JVM running for 3.65)
+[INFO ] 2021-11-16 17:44:14.019 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 59990 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:44:14.021 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:44:16.606 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.772 seconds (JVM running for 3.752)
+[INFO ] 2021-11-16 17:46:41.973 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 60350 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:46:41.975 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:46:44.568 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.74 seconds (JVM running for 3.667)
+[INFO ] 2021-11-16 17:47:33.409 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 60531 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:47:33.413 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:47:35.987 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.753 seconds (JVM running for 3.621)
+[INFO ] 2021-11-16 17:48:19.938 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 60700 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:48:19.952 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:48:22.662 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.875 seconds (JVM running for 3.821)
+[INFO ] 2021-11-16 17:48:44.797 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 60856 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:48:44.802 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:48:48.489 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 3.952 seconds (JVM running for 5.325)
+[INFO ] 2021-11-16 17:48:49.516 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 60856 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:48:49.517 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:48:50.459 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.959 seconds (JVM running for 7.295)
+[INFO ] 2021-11-16 17:53:45.538 [main] TransactionBuddyServiceTest - Starting TransactionBuddyServiceTest using Java 11.0.13 on fedora with PID 61705 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:53:45.543 [main] TransactionBuddyServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:53:47.998 [main] TransactionBuddyServiceTest - Started TransactionBuddyServiceTest in 2.617 seconds (JVM running for 3.511)
+[INFO ] 2021-11-16 17:54:40.280 [main] TransactionBankServiceTest - Starting TransactionBankServiceTest using Java 11.0.13 on fedora with PID 61888 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:54:40.296 [main] TransactionBankServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:54:42.959 [main] TransactionBankServiceTest - Started TransactionBankServiceTest in 2.86 seconds (JVM running for 3.76)
+[INFO ] 2021-11-16 17:55:03.748 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 62195 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:55:03.753 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:55:07.586 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.074 seconds (JVM running for 5.415)
+[INFO ] 2021-11-16 17:55:08.732 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 62195 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 17:55:08.734 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 17:55:09.734 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 1.027 seconds (JVM running for 7.562)
+[INFO ] 2021-11-16 18:08:58.295 [main] BankAccountServiceTest - Starting BankAccountServiceTest using Java 11.0.13 on fedora with PID 63947 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:08:58.298 [main] BankAccountServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:09:00.774 [main] BankAccountServiceTest - Started BankAccountServiceTest in 2.655 seconds (JVM running for 3.574)
+[INFO ] 2021-11-16 18:09:55.745 [main] BankAccountServiceTest - Starting BankAccountServiceTest using Java 11.0.13 on fedora with PID 64135 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:09:55.756 [main] BankAccountServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:09:58.303 [main] BankAccountServiceTest - Started BankAccountServiceTest in 2.713 seconds (JVM running for 3.598)
+[INFO ] 2021-11-16 18:11:03.239 [main] BankAccountServiceTest - Starting BankAccountServiceTest using Java 11.0.13 on fedora with PID 64355 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:11:03.243 [main] BankAccountServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:11:06.012 [main] BankAccountServiceTest - Started BankAccountServiceTest in 2.95 seconds (JVM running for 3.875)
+[INFO ] 2021-11-16 18:12:57.431 [main] BankAccountServiceTest - Starting BankAccountServiceTest using Java 11.0.13 on fedora with PID 64684 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:12:57.434 [main] BankAccountServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:13:00.118 [main] BankAccountServiceTest - Started BankAccountServiceTest in 2.853 seconds (JVM running for 3.738)
+[INFO ] 2021-11-16 18:13:41.060 [main] BankAccountServiceTest - Starting BankAccountServiceTest using Java 11.0.13 on fedora with PID 64885 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:13:41.072 [main] BankAccountServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:13:43.811 [main] BankAccountServiceTest - Started BankAccountServiceTest in 2.917 seconds (JVM running for 3.837)
+[INFO ] 2021-11-16 18:14:05.583 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 65258 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:14:05.589 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:14:09.650 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.334 seconds (JVM running for 5.764)
+[INFO ] 2021-11-16 18:14:11.024 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 65258 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:14:11.025 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:14:12.003 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 0.999 seconds (JVM running for 8.117)
+[INFO ] 2021-11-16 18:23:04.289 [main] PmbUserDetailsServiceTest - Starting PmbUserDetailsServiceTest using Java 11.0.13 on fedora with PID 66431 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:23:04.303 [main] PmbUserDetailsServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:23:06.926 [main] PmbUserDetailsServiceTest - Started PmbUserDetailsServiceTest in 2.801 seconds (JVM running for 3.743)
+[INFO ] 2021-11-16 18:23:28.003 [main] PmbUserDetailsServiceTest - Starting PmbUserDetailsServiceTest using Java 11.0.13 on fedora with PID 66559 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:23:28.015 [main] PmbUserDetailsServiceTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:23:30.661 [main] PmbUserDetailsServiceTest - Started PmbUserDetailsServiceTest in 2.801 seconds (JVM running for 3.681)
+[INFO ] 2021-11-16 18:23:49.751 [main] UserAccountServiceImplTest - Starting UserAccountServiceImplTest using Java 11.0.13 on fedora with PID 66859 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:23:49.757 [main] UserAccountServiceImplTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:23:53.905 [main] UserAccountServiceImplTest - Started UserAccountServiceImplTest in 4.393 seconds (JVM running for 5.765)
+[INFO ] 2021-11-16 18:23:55.247 [main] UserRegistrationControllerTest - Starting UserRegistrationControllerTest using Java 11.0.13 on fedora with PID 66859 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 18:23:55.248 [main] UserRegistrationControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 18:23:56.262 [main] UserRegistrationControllerTest - Started UserRegistrationControllerTest in 1.031 seconds (JVM running for 8.122)
+[INFO ] 2021-11-16 20:24:20.440 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.13 on fedora with PID 81854 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 20:24:20.444 [main] TransferControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 20:24:23.007 [main] TransferControllerTest - Started TransferControllerTest in 2.748 seconds (JVM running for 3.663)
+[INFO ] 2021-11-16 20:25:31.272 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.13 on fedora with PID 82075 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 20:25:31.276 [main] TransferControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 20:25:33.973 [main] TransferControllerTest - Started TransferControllerTest in 2.92 seconds (JVM running for 3.887)
+[INFO ] 2021-11-16 20:28:46.848 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.13 on fedora with PID 82548 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 20:28:46.852 [main] TransferControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 20:28:49.578 [main] TransferControllerTest - Started TransferControllerTest in 2.918 seconds (JVM running for 3.977)
+[INFO ] 2021-11-16 21:06:23.117 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.13 on fedora with PID 86810 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 21:06:23.120 [main] TransferControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 21:06:25.979 [main] TransferControllerTest - Started TransferControllerTest in 3.036 seconds (JVM running for 3.956)
+[INFO ] 2021-11-16 21:07:24.543 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.13 on fedora with PID 87009 (started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer/transfer)
+[INFO ] 2021-11-16 21:07:24.546 [main] TransferControllerTest - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-16 21:07:27.135 [main] TransferControllerTest - Started TransferControllerTest in 2.778 seconds (JVM running for 3.715)
