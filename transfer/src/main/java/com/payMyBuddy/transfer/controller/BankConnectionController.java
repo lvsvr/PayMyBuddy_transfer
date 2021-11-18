@@ -7,7 +7,6 @@ import com.payMyBuddy.transfer.model.UserAccount;
 import com.payMyBuddy.transfer.service.BankAccountService;
 import com.payMyBuddy.transfer.service.UserAccountServiceImpl;
 import com.payMyBuddy.transfer.service.UserServiceImpl;
-import com.payMyBuddy.transfer.web.dto.UserRegistrationDto;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

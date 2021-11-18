@@ -38,7 +38,7 @@ public class HomeController {
     }
 
     @GetMapping("/home")
-    public String goHome(@AuthenticationPrincipal AppUser appUser,Model model, BankAccount bankAccount, TransactionBank transactionBank){
+    public String goHome(@AuthenticationPrincipal AppUser appUser, Model model, BankAccount bankAccount, TransactionBank transactionBank) {
         String email = appUser.getUsername();
         UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
         model.addAttribute("balance", userAccount.getBalance());
@@ -49,27 +49,29 @@ public class HomeController {
         return "home";
     }
 
-       @PostMapping("/addBankTransfer")
-        public String createBankTransfer(@AuthenticationPrincipal AppUser appUser, Model model, @ModelAttribute BankAccount bankAccount, @ModelAttribute TransactionBank transactionBank){
-           logger.info(transactionBank.getAmount());
-           logger.info(transactionBank.getBankAccount().getIban());
-           String email = appUser.getUsername();
-           UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
-           ArrayList<BankAccount> bankAccounts = bankAccountService.getAllBankAccountsByUserAccount(userAccount);
-           for(BankAccount ba : bankAccounts){
-               if(ba.getIban().equals(transactionBank.getBankAccount().getIban()))
-                   transactionBank.setBankAccount(ba);
-           }
-           logger.info(transactionBank.getBankAccount().getUserAccount());
-           Date date = new Date();
-           transactionBank.setDate(date);
-           transactionBank.setFromBank(false);
-           if (transactionBank.getAmount()<=0)
-               return "redirect:/home";
-           else{
-           userAccount.setBalance(userAccount.getBalance() - transactionBank.getAmount());
-           TransactionBank savedTransactionBank = transactionBankService.addTransaction(transactionBank);}
-           logger.info(transactionBank);
+    @PostMapping("/addBankTransfer")
+    public String createBankTransfer(@AuthenticationPrincipal AppUser appUser, Model model, @ModelAttribute BankAccount bankAccount, @ModelAttribute TransactionBank transactionBank) {
+        logger.info(transactionBank.getAmount());
+        logger.info(transactionBank.getBankAccount().getIban());
+        String email = appUser.getUsername();
+        UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
+        ArrayList<BankAccount> bankAccounts = bankAccountService.getAllBankAccountsByUserAccount(userAccount);
+        for (BankAccount ba : bankAccounts) {
+            if (ba.getIban().equals(transactionBank.getBankAccount().getIban()))
+                transactionBank.setBankAccount(ba);
+        }
+        logger.info(transactionBank.getBankAccount().getUserAccount());
+        Date date = new Date();
+        transactionBank.setDate(date);
+        transactionBank.setFromBank(false);
+        if (transactionBank.getAmount() <= 0)
+            return "redirect:/home";
+        else {
+            userAccount.setBalance(userAccount.getBalance() - transactionBank.getAmount());
+            TransactionBank savedTransactionBank = transactionBankService.addTransaction(transactionBank);
+        }
+        logger.info(transactionBank);
         return "redirect:/home";
-       }
+    }
 }
+

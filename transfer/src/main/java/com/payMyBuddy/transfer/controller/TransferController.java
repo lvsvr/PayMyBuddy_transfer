@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 
 @Controller
@@ -67,19 +66,20 @@ public class TransferController {
         UserAccount userAccount = userAccountService.findByUser(userService.findByEmail(email));
 
         ArrayList<UserBuddy> userBuddies = userBuddyService.getAllUserBuddiesByUserAccount(userAccount);
-        for(UserBuddy userBuddy : userBuddies){
-            if(userBuddy.getBuddy().getEmail().equals(transactionBuddy.getUserBuddy().getBuddy().getEmail()))
+        for (UserBuddy userBuddy : userBuddies) {
+            if (userBuddy.getBuddy().getEmail().equals(transactionBuddy.getUserBuddy().getBuddy().getEmail()))
                 transactionBuddy.setUserBuddy(userBuddy);
         }
         Date date = new Date();
         transactionBuddy.setDate(date);
         transactionBuddy.setDescription(transactionBuddy.getDate() + " -- " + "from: " + transactionBuddy.getUserBuddy().getUserAccount().getUser().getEmail() + " -- " + transactionBuddy.getDescription());
-        if (transactionBuddy.getAmount()<=0)
+        if (transactionBuddy.getAmount() <= 0)
             return "redirect:/transfer";
-        else{
-        userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount() - (0.005*transactionBuddy.getAmount()));
-        userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
-        TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);}
+        else {
+            userAccount.setBalance(userAccount.getBalance() - transactionBuddy.getAmount() - (0.005 * transactionBuddy.getAmount()));
+            userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).setBalance(userAccountService.findByUser(transactionBuddy.getUserBuddy().getBuddy()).getBalance() + transactionBuddy.getAmount());
+            TransactionBuddy savedTransactionBuddy = transactionBuddyService.addTransaction(transactionBuddy);
+        }
         logger.info(transactionBuddy);
         return "redirect:/transfer";
     }

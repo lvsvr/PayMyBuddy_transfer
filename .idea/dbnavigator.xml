@@ -28,7 +28,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="5fe71b5f-53a9-4403-a7ef-02aea1d115a2">
-      <console name="payMyBuddy_db" type="STANDARD" schema="information_schema" session="Main" />
+      <console name="db_payMyBuddy" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
