@@ -22,10 +22,11 @@ Prototype: web application Java with Spring Boot
 **Diagramme de classe**
 
 ---
-
+![](project/DiagrammeDeClasse.png)
 ___
 
 **Modèle physique de données**
 
 ---
+![](project/modele_physique_donnees.png)
 ---
