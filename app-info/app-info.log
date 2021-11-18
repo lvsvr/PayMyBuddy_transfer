@@ -347,3 +347,29 @@
 [INFO ] 2021-11-18 21:05:11.241 [http-nio-8080-exec-2] TransferApplication - user has been updated: User{email='user4@spring.omg', firstName='u', lastName='2', password='$2a$10$WIkqs0/MZa7OytdaUmuhaefYu.Z70ZDxeSlG7hIAFNnCHMIaT2yqy', role='USER', phone='06'}
 [INFO ] 2021-11-18 21:05:27.246 [http-nio-8080-exec-8] TransferApplication - getTest
 [INFO ] 2021-11-18 21:05:39.538 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-18 22:43:23.391 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 13446 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:43:23.397 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:44:25.088 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 13668 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:44:25.093 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:44:29.493 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 13762 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:44:29.499 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:44:31.709 [main] TransferApplication - Started TransferApplication in 2.449 seconds (JVM running for 2.994)
+[INFO ] 2021-11-18 22:44:31.711 [main] TransferApplication - app initialized
+[INFO ] 2021-11-18 22:45:19.932 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 13892 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:45:19.937 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:45:22.021 [main] TransferApplication - Started TransferApplication in 2.331 seconds (JVM running for 2.965)
+[INFO ] 2021-11-18 22:45:22.022 [main] TransferApplication - app initialized
+[INFO ] 2021-11-18 22:46:36.202 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 14037 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:46:36.209 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:46:38.513 [main] TransferApplication - Started TransferApplication in 2.538 seconds (JVM running for 3.095)
+[INFO ] 2021-11-18 22:46:38.515 [main] TransferApplication - app initialized
+[INFO ] 2021-11-18 22:47:20.987 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 14209 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:47:20.991 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:47:31.395 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 14308 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:47:31.400 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:47:33.491 [main] TransferApplication - Started TransferApplication in 2.345 seconds (JVM running for 2.897)
+[INFO ] 2021-11-18 22:47:33.493 [main] TransferApplication - app initialized
+[INFO ] 2021-11-18 22:52:22.712 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 3319 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-18 22:52:22.718 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-18 22:52:25.284 [main] TransferApplication - Started TransferApplication in 2.79 seconds (JVM running for 3.458)
+[INFO ] 2021-11-18 22:52:25.286 [main] TransferApplication - app initialized
