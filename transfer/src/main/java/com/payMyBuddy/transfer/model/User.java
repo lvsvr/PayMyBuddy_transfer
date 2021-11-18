@@ -22,18 +22,6 @@ public class User {
     @Column(name="phone")
     private String phone;
 
-    @OneToOne(orphanRemoval = true)
-    @JoinColumn(name = "user_id_user_account_id", unique = true)
-    private UserAccount user_id;
-
-    public UserAccount getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(UserAccount user_id) {
-        this.user_id = user_id;
-    }
-
     public User() {
     }
 

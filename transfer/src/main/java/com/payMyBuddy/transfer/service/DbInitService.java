@@ -18,7 +18,8 @@
 //
 //    @Override
 //    public void run(String... args) throws Exception {
-//        User user = new User("user@spring.omg", "user", "1", passwordEncoder.encode("user123"), "USER", "06" );
+//        User mockUser = new User(0,"user", "user", "a", passwordEncoder.encode("password"), "USER", "06" );
+//        User user = new User(0,"user@test.omg", "user", "a", passwordEncoder.encode("123"), "USER", "06" );
 //    this.userRepository.save(user);
 //    }
 //}

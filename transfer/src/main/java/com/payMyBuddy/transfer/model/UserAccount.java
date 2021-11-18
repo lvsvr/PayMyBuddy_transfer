@@ -12,7 +12,6 @@ public class UserAccount {
     @Column(name="balance")
     private double balance;
     @OneToOne
-    @JoinColumn(name = "user_id")
     private User user;
 
     public UserAccount() {

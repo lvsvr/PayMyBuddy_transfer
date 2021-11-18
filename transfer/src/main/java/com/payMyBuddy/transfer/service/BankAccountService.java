@@ -1,14 +1,11 @@
 package com.payMyBuddy.transfer.service;
 
 import com.payMyBuddy.transfer.model.BankAccount;
-import com.payMyBuddy.transfer.model.TransactionBank;
 import com.payMyBuddy.transfer.model.UserAccount;
-import com.payMyBuddy.transfer.model.UserBuddy;
 import com.payMyBuddy.transfer.repository.BankAccountRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Optional;
 
 @Service
 public class BankAccountService {
@@ -19,20 +16,14 @@ public class BankAccountService {
         this.bankAccountRepository = bankAccountRepository;
     }
 
-    public ArrayList<String> getIbanListByUserAccount(UserAccount userAccount){
-        ArrayList<BankAccount> bankAccounts = getAllBankAccounts();
-        ArrayList<String> ibans = new ArrayList<String>();
-        for(BankAccount bankAccount : bankAccounts ){
-            if (bankAccount.getUserAccount() == userAccount)
-                ibans.add(bankAccount.getIban());
-        }
-        return ibans;
+    public BankAccount addBankAccount(BankAccount bankAccount) {
+        return bankAccountRepository.save(bankAccount);
     }
 
-    public ArrayList<BankAccount> getAllBankAccountsByUserAccount(UserAccount userAccount){
+    public ArrayList<BankAccount> getAllBankAccountsByUserAccount(UserAccount userAccount) {
         ArrayList<BankAccount> bankAccounts = getAllBankAccounts();
         ArrayList<BankAccount> bankAccountsByAccount = new ArrayList<BankAccount>();
-        for (BankAccount bankAccount : bankAccounts){
+        for (BankAccount bankAccount : bankAccounts) {
             if (bankAccount.getUserAccount().equals(userAccount))
                 bankAccountsByAccount.add(bankAccount);
         }
@@ -43,15 +34,5 @@ public class BankAccountService {
         return (ArrayList<BankAccount>) bankAccountRepository.findAll();
     }
 
-    public Optional<BankAccount> getBankAccountById(Long id) {
-        return bankAccountRepository.findById(id);
-    }
 
-    public BankAccount addBankAccount(BankAccount bankAccount) {
-        return bankAccountRepository.save(bankAccount);
-    }
-
-    public void deleteBankAccountById(Long id) {
-        bankAccountRepository.deleteById(id);
-    }
 }

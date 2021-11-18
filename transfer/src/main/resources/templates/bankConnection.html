@@ -46,7 +46,7 @@
 </header>
 <div class="logBox">
     <div class="position2">
-            <div class="logBox2">
+        <div class="logBox2">
             <h4>Add Iban</h4>
 
             <form th:action="@{/addConnection}" method="post" th:object="${bankAccount}">
@@ -57,23 +57,10 @@
                 <a href="./home" class="btn btn-secondary col-5" role="button" aria-pressed="true">Cancel</a>
                 <button type="submit" class="col-5 btn btn-primary">Add</button>
             </form>
-                </div>
-<!--            <form th:action="@{/connection}" method="post" th:object="${user}">-->
-<!--            <div class="logBox2">-->
-<!--                <div class="col-lg-10">-->
-<!--                    <select class="form-control">-->
-<!--                        <option>Select User</option>-->
-<!--                        <option th:each="user:${userList}" th:value="${user}" th:text="${user.email}"></option>-->
-<!--                        </select>-->
-<!--&lt;!&ndash;                    <input type="email" class="form-control" placeholder="${user.email}" th:field="*{email}" required autofocus="autofocus">&ndash;&gt;-->
-<!--                    <a href="./transfer" class="btn btn-secondary col-5" role="button" aria-pressed="true">Cancel</a>-->
-<!--                    <button type="submit" th:value="${email}" class="col-5 btn btn-primary">Add</button>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            </form>-->
         </div>
+
     </div>
+</div>
 </div>
 </div>
 </body>

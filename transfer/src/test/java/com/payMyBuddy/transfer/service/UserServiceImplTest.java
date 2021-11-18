@@ -34,10 +34,13 @@ class UserServiceImplTest {
         String email = "user2@spring.omg";
         UserRegistrationDto userDto = new UserRegistrationDto(email, "user", "0", "pwd", "06");
         String email2 = "user3@spring.omg";
-        UserRegistrationDto userDto2 = new UserRegistrationDto(email2, "u", "2", "pwd", "06");
+        User user2= new User();
+        user2.setEmail(email2);
+        user2.setFirstName("u");
+        user2.setFirstName("2");
+        user2.setPassword("123");
         //WHEN
         User user = underTest.addUser(userDto);
-        User user2 = underTest.addUser(userDto2);
         underTest.updateUserByCloningUpdatedUser(user, user2);
         //THEN
         assertEquals(user.getEmail(), user2.getEmail());
