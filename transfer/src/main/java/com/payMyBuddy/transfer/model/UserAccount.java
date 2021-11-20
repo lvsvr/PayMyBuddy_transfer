@@ -9,7 +9,7 @@ public class UserAccount {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="userAccount_id")
     private long id;
-    @Column(name="balance")
+    @Column(name="balance", columnDefinition = "NUMERIC(7,2)")
     private double balance;
     @OneToOne
     private User user;
