@@ -1,53 +1,81 @@
-[INFO ] 2021-11-20 09:29:34.158 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 4740 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
-[INFO ] 2021-11-20 09:29:34.165 [main] TransferApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2021-11-20 09:29:36.959 [main] TransferApplication - Started TransferApplication in 3.041 seconds (JVM running for 3.76)
-[INFO ] 2021-11-20 09:29:36.962 [main] TransferApplication - app initialized
-[INFO ] 2021-11-20 09:30:23.794 [http-nio-8080-exec-7] TransferApplication - getTest
-[INFO ] 2021-11-20 09:30:30.267 [http-nio-8080-exec-3] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
-[INFO ] 2021-11-20 09:30:30.283 [http-nio-8080-exec-8] TransferApplication - getTest
-[INFO ] 2021-11-20 09:30:35.356 [http-nio-8080-exec-4] TransferApplication - userName: user@spring.omg - buddy: user@spring.omg
-[INFO ] 2021-11-20 09:30:35.369 [http-nio-8080-exec-5] TransferApplication - getTest
-[INFO ] 2021-11-20 09:30:42.878 [http-nio-8080-exec-8] TransferApplication - 10.0
-[INFO ] 2021-11-20 09:30:42.878 [http-nio-8080-exec-8] TransferApplication - 
-[INFO ] 2021-11-20 09:30:44.726 [http-nio-8080-exec-9] TransferApplication - getTest
-[INFO ] 2021-11-20 09:30:50.711 [http-nio-8080-exec-10] TransferApplication - 10.0
-[INFO ] 2021-11-20 09:30:50.711 [http-nio-8080-exec-10] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:30:50.724 [http-nio-8080-exec-10] TransferApplication - TransactionBuddy{id=1, date=Sat Nov 20 09:30:50 CET 2021, amount=10.0, description='Sat Nov 20 09:30:50 CET 2021 -- from: user@spring.omg -- test', userBuddy=UserBuddy{id=1, userAccount=UserAccount{id=1, balance=989.95, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$KmgEGx9mcu6BvTHB0Ux81u5aoMVEgIZZHIE9fr/tPaCAqhkUIKV7y', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$m92cdBslHECuXx6qtJADKOIImaKnuEZcb/V2qO2btCc9aZBHx139G', role='USER', phone='06'}}}
-[INFO ] 2021-11-20 09:30:50.734 [http-nio-8080-exec-2] TransferApplication - getTest
-[INFO ] 2021-11-20 09:31:01.470 [http-nio-8080-exec-3] TransferApplication - -20.0
-[INFO ] 2021-11-20 09:31:01.470 [http-nio-8080-exec-3] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:31:01.482 [http-nio-8080-exec-1] TransferApplication - getTest
-[INFO ] 2021-11-20 09:31:10.625 [http-nio-8080-exec-7] TransferApplication - 30.0
-[INFO ] 2021-11-20 09:31:10.625 [http-nio-8080-exec-7] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:31:10.633 [http-nio-8080-exec-7] TransferApplication - TransactionBuddy{id=2, date=Sat Nov 20 09:31:10 CET 2021, amount=30.0, description='Sat Nov 20 09:31:10 CET 2021 -- from: user@spring.omg -- test again', userBuddy=UserBuddy{id=1, userAccount=UserAccount{id=1, balance=959.8000000000001, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$KmgEGx9mcu6BvTHB0Ux81u5aoMVEgIZZHIE9fr/tPaCAqhkUIKV7y', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$m92cdBslHECuXx6qtJADKOIImaKnuEZcb/V2qO2btCc9aZBHx139G', role='USER', phone='06'}}}
-[INFO ] 2021-11-20 09:31:10.643 [http-nio-8080-exec-6] TransferApplication - getTest
-[INFO ] 2021-11-20 09:31:38.708 [http-nio-8080-exec-1] TransferApplication - getTest
-[INFO ] 2021-11-20 09:31:47.126 [http-nio-8080-exec-10] TransferApplication - getTest
-[INFO ] 2021-11-20 09:31:52.664 [http-nio-8080-exec-8] TransferApplication - getTest
-[INFO ] 2021-11-20 09:48:54.772 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 7249 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
-[INFO ] 2021-11-20 09:48:54.776 [main] TransferApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2021-11-20 09:48:57.079 [main] TransferApplication - Started TransferApplication in 2.535 seconds (JVM running for 3.143)
-[INFO ] 2021-11-20 09:48:57.082 [main] TransferApplication - app initialized
-[INFO ] 2021-11-20 09:49:51.048 [http-nio-8080-exec-4] TransferApplication - getTest
-[INFO ] 2021-11-20 09:49:55.369 [http-nio-8080-exec-1] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
-[INFO ] 2021-11-20 09:49:55.384 [http-nio-8080-exec-2] TransferApplication - getTest
-[INFO ] 2021-11-20 09:50:02.545 [http-nio-8080-exec-4] TransferApplication - 20.0
-[INFO ] 2021-11-20 09:50:02.545 [http-nio-8080-exec-4] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:50:02.557 [http-nio-8080-exec-4] TransferApplication - TransactionBuddy{id=1, date=Sat Nov 20 09:50:02 CET 2021, amount=20.0, description='Sat Nov 20 09:50:02 CET 2021 -- from: user@spring.omg -- test', userBuddy=UserBuddy{id=1, userAccount=UserAccount{id=1, balance=979.9, user=User{email='user@spring.omg', firstName='u', lastName='0', password='$2a$10$8VaaaCt5NCzguFPLFzWTku/Y76lKlD9t1II9orccdsXVkdievm8gO', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$YDtbibKfHMp60mbrFERBeeA/HiQjoZuAluQYgzdeOYQ7fDkdewBRu', role='USER', phone='06'}}}
-[INFO ] 2021-11-20 09:50:02.568 [http-nio-8080-exec-7] TransferApplication - getTest
-[INFO ] 2021-11-20 09:50:12.827 [http-nio-8080-exec-2] TransferApplication - getTest
-[INFO ] 2021-11-20 09:50:18.133 [http-nio-8080-exec-5] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
-[INFO ] 2021-11-20 09:50:20.917 [http-nio-8080-exec-2] TransferApplication - getTest
-[INFO ] 2021-11-20 09:50:28.157 [http-nio-8080-exec-4] TransferApplication - 0.0
-[INFO ] 2021-11-20 09:50:28.158 [http-nio-8080-exec-4] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:50:28.170 [http-nio-8080-exec-7] TransferApplication - getTest
-[INFO ] 2021-11-20 09:50:38.460 [http-nio-8080-exec-6] TransferApplication - 10.0
-[INFO ] 2021-11-20 09:50:38.460 [http-nio-8080-exec-6] TransferApplication - user2@spring.omg
-[INFO ] 2021-11-20 09:50:38.468 [http-nio-8080-exec-6] TransferApplication - TransactionBuddy{id=2, date=Sat Nov 20 09:50:38 CET 2021, amount=10.0, description='Sat Nov 20 09:50:38 CET 2021 -- from: user@spring.omg -- test again', userBuddy=UserBuddy{id=1, userAccount=UserAccount{id=1, balance=969.85, user=User{email='user@spring.omg', firstName='u', lastName='0', password='$2a$10$8VaaaCt5NCzguFPLFzWTku/Y76lKlD9t1II9orccdsXVkdievm8gO', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$YDtbibKfHMp60mbrFERBeeA/HiQjoZuAluQYgzdeOYQ7fDkdewBRu', role='USER', phone='06'}}}
-[INFO ] 2021-11-20 09:50:38.480 [http-nio-8080-exec-9] TransferApplication - getTest
-[INFO ] 2021-11-20 09:51:10.551 [http-nio-8080-exec-4] TransferApplication - user before update: User{email='user@spring.omg', firstName='u', lastName='0', password='$2a$10$8VaaaCt5NCzguFPLFzWTku/Y76lKlD9t1II9orccdsXVkdievm8gO', role='USER', phone='06'}
-[INFO ] 2021-11-20 09:51:10.551 [http-nio-8080-exec-4] TransferApplication - update:User{email='user3@spring.omg', firstName='u', lastName='0', password='123', role='null', phone='06'}
-[INFO ] 2021-11-20 09:51:10.617 [http-nio-8080-exec-4] TransferApplication - user has been updated: User{email='user3@spring.omg', firstName='u', lastName='0', password='$2a$10$sENO.o/7WZbWERu15SPO6uqORxvr8QZsokwM4mVDWsDgkl2R/VobK', role='USER', phone='06'}
-[INFO ] 2021-11-20 09:51:25.507 [http-nio-8080-exec-8] TransferApplication - getTest
-[INFO ] 2021-11-20 09:51:32.800 [http-nio-8080-exec-4] TransferApplication - userName: user3@spring.omg - buddy: user3@spring.omg
-[INFO ] 2021-11-20 09:51:32.813 [http-nio-8080-exec-5] TransferApplication - getTest
+[INFO ] 2021-11-24 08:44:27.740 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 5712 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-24 08:44:27.749 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-24 08:44:30.140 [main] TransferApplication - Started TransferApplication in 2.662 seconds (JVM running for 3.364)
+[INFO ] 2021-11-24 08:44:30.142 [main] TransferApplication - app initialized
+[INFO ] 2021-11-24 08:45:06.961 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-24 08:45:53.706 [http-nio-8080-exec-8] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$rQUyXV1ujwu/kZcbSuZiYuEDLnWrev5KAfRCl1U3jL5sr4Aj15HZS', role='USER', phone='06'}}
+[INFO ] 2021-11-24 08:45:53.710 [http-nio-8080-exec-8] TransferApplication - iban
+[INFO ] 2021-11-24 08:45:54.723 [http-nio-8080-exec-3] TransferApplication - getTest
+[INFO ] 2021-11-24 08:46:02.296 [http-nio-8080-exec-8] TransferApplication - 10.0
+[INFO ] 2021-11-24 08:46:02.296 [http-nio-8080-exec-8] TransferApplication - iban
+[INFO ] 2021-11-24 08:46:02.299 [http-nio-8080-exec-8] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$rQUyXV1ujwu/kZcbSuZiYuEDLnWrev5KAfRCl1U3jL5sr4Aj15HZS', role='USER', phone='06'}}
+[INFO ] 2021-11-24 08:46:02.312 [http-nio-8080-exec-8] TransferApplication - TransactionBank{id=1, date=Wed Nov 24 08:46:02 CET 2021, amount=10.0, fromBank=false, bankAccount=com.payMyBuddy.transfer.model.BankAccount@49e2a0d7}
+[INFO ] 2021-11-24 08:46:28.778 [http-nio-8080-exec-3] TransferApplication - getTest
+[INFO ] 2021-11-24 08:46:33.070 [http-nio-8080-exec-8] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
+[INFO ] 2021-11-24 08:46:33.086 [http-nio-8080-exec-6] TransferApplication - getTest
+[INFO ] 2021-11-24 08:46:48.463 [http-nio-8080-exec-3] TransferApplication - 20.0
+[INFO ] 2021-11-24 08:46:48.463 [http-nio-8080-exec-3] TransferApplication - user2@spring.omg
+[INFO ] 2021-11-24 08:46:48.472 [http-nio-8080-exec-3] TransferApplication - TransactionBuddy{id=1, date=Wed Nov 24 08:46:48 CET 2021, amount=20.0, description='Wed Nov 24 08:46:48 CET 2021 -- from: user@spring.omg -- test', userBuddy=UserBuddy{id=1, userAccount=UserAccount{id=1, balance=969.9, user=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$rQUyXV1ujwu/kZcbSuZiYuEDLnWrev5KAfRCl1U3jL5sr4Aj15HZS', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$gzXCvaUgtdq19g2xA7hthOVcSTA41tSeqM5zTSRMVu5/Z.kTwNfva', role='USER', phone='06'}}}
+[INFO ] 2021-11-24 08:46:48.482 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-24 08:47:11.624 [http-nio-8080-exec-3] TransferApplication - getTest
+[INFO ] 2021-11-24 08:47:23.457 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-24 08:47:28.138 [http-nio-8080-exec-6] TransferApplication - userName: user2@spring.omg - buddy: user@spring.omg
+[INFO ] 2021-11-24 08:47:28.148 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-24 08:47:41.529 [http-nio-8080-exec-10] TransferApplication - 30.0
+[INFO ] 2021-11-24 08:47:41.529 [http-nio-8080-exec-10] TransferApplication - user@spring.omg
+[INFO ] 2021-11-24 08:47:41.537 [http-nio-8080-exec-10] TransferApplication - TransactionBuddy{id=2, date=Wed Nov 24 08:47:41 CET 2021, amount=30.0, description='Wed Nov 24 08:47:41 CET 2021 -- from: user2@spring.omg -- test again', userBuddy=UserBuddy{id=2, userAccount=UserAccount{id=2, balance=989.85, user=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$gzXCvaUgtdq19g2xA7hthOVcSTA41tSeqM5zTSRMVu5/Z.kTwNfva', role='USER', phone='06'}}, buddy=User{email='user@spring.omg', firstName='user', lastName='0', password='$2a$10$rQUyXV1ujwu/kZcbSuZiYuEDLnWrev5KAfRCl1U3jL5sr4Aj15HZS', role='USER', phone='06'}}}
+[INFO ] 2021-11-24 08:47:41.547 [http-nio-8080-exec-8] TransferApplication - getTest
+[INFO ] 2021-11-24 08:47:47.956 [http-nio-8080-exec-9] TransferApplication - getTest
+[INFO ] 2021-11-24 08:48:30.298 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 6395 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-24 08:48:30.303 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-24 08:48:32.498 [main] TransferApplication - Started TransferApplication in 2.468 seconds (JVM running for 3.077)
+[INFO ] 2021-11-24 08:48:32.500 [main] TransferApplication - app initialized
+[INFO ] 2021-11-24 10:21:04.700 [main] TransferApplication - Starting TransferApplication using Java 11.0.13 on fedora with PID 17800 (/home/alex/IdeaProjects/PayMyBuddy_transfer/transfer/target/classes started by alex in /home/alex/IdeaProjects/PayMyBuddy_transfer)
+[INFO ] 2021-11-24 10:21:04.714 [main] TransferApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-11-24 10:21:08.164 [main] TransferApplication - Started TransferApplication in 3.822 seconds (JVM running for 4.625)
+[INFO ] 2021-11-24 10:21:08.168 [main] TransferApplication - app initialized
+[INFO ] 2021-11-24 10:22:32.650 [http-nio-8080-exec-6] TransferApplication - getTest
+[INFO ] 2021-11-24 10:22:56.860 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-24 10:23:01.759 [http-nio-8080-exec-7] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}
+[INFO ] 2021-11-24 10:23:01.763 [http-nio-8080-exec-7] TransferApplication - iban
+[INFO ] 2021-11-24 10:23:05.250 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-24 10:23:07.377 [http-nio-8080-exec-4] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}
+[INFO ] 2021-11-24 10:23:08.659 [http-nio-8080-exec-2] TransferApplication - getTest
+[INFO ] 2021-11-24 10:23:18.143 [http-nio-8080-exec-1] TransferApplication - 10.0
+[INFO ] 2021-11-24 10:23:18.144 [http-nio-8080-exec-1] TransferApplication - iban
+[INFO ] 2021-11-24 10:23:18.149 [http-nio-8080-exec-1] TransferApplication - UserAccount{id=1, balance=1000.0, user=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}
+[INFO ] 2021-11-24 10:23:18.162 [http-nio-8080-exec-1] TransferApplication - TransactionBank{id=1, date=Wed Nov 24 10:23:18 CET 2021, amount=10.0, fromBank=false, bankAccount=com.payMyBuddy.transfer.model.BankAccount@1e7c8ea8}
+[INFO ] 2021-11-24 10:23:26.859 [http-nio-8080-exec-2] TransferApplication - 0.0
+[INFO ] 2021-11-24 10:23:26.859 [http-nio-8080-exec-2] TransferApplication - 
+[INFO ] 2021-11-24 10:23:26.865 [http-nio-8080-exec-2] TransferApplication - null
+[INFO ] 2021-11-24 10:23:34.239 [http-nio-8080-exec-10] TransferApplication - -10.0
+[INFO ] 2021-11-24 10:23:34.239 [http-nio-8080-exec-10] TransferApplication - iban
+[INFO ] 2021-11-24 10:23:34.242 [http-nio-8080-exec-10] TransferApplication - UserAccount{id=1, balance=990.0, user=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}
+[INFO ] 2021-11-24 10:25:07.055 [http-nio-8080-exec-2] TransferApplication - getTest
+[INFO ] 2021-11-24 10:25:19.142 [http-nio-8080-exec-9] TransferApplication - userName: user@spring.omg - buddy: user@spring.omg
+[INFO ] 2021-11-24 10:25:19.153 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-24 10:25:27.498 [http-nio-8080-exec-6] TransferApplication - userName: user@spring.omg - buddy: user2@spring.omg
+[INFO ] 2021-11-24 10:25:27.521 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-24 10:25:38.142 [http-nio-8080-exec-1] TransferApplication - 20.0
+[INFO ] 2021-11-24 10:25:38.143 [http-nio-8080-exec-1] TransferApplication - user2@spring.omg
+[INFO ] 2021-11-24 10:25:38.160 [http-nio-8080-exec-1] TransferApplication - TransactionBuddy{id=1, date=Wed Nov 24 10:25:38 CET 2021, amount=20.0, description='Wed Nov 24 10:25:38 CET 2021 -- from: user@spring.omg -- test', userBuddy=UserBuddy{id=2, userAccount=UserAccount{id=1, balance=969.9, user=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}, buddy=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$m0LaY.PaKQtyNw9H8cOsY.GqgSA2vAdi2kqBrwRs3TA8cwC1a2CKW', role='USER', phone='06'}}}
+[INFO ] 2021-11-24 10:25:38.174 [http-nio-8080-exec-4] TransferApplication - getTest
+[INFO ] 2021-11-24 10:26:18.051 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-24 10:26:31.078 [http-nio-8080-exec-3] TransferApplication - getTest
+[INFO ] 2021-11-24 10:26:46.207 [http-nio-8080-exec-9] TransferApplication - userName: user2@spring.omg - buddy: user@spring.omg
+[INFO ] 2021-11-24 10:26:46.224 [http-nio-8080-exec-2] TransferApplication - getTest
+[INFO ] 2021-11-24 10:26:57.127 [http-nio-8080-exec-3] TransferApplication - -10.0
+[INFO ] 2021-11-24 10:26:57.127 [http-nio-8080-exec-3] TransferApplication - user@spring.omg
+[INFO ] 2021-11-24 10:26:57.145 [http-nio-8080-exec-5] TransferApplication - getTest
+[INFO ] 2021-11-24 10:27:07.319 [http-nio-8080-exec-8] TransferApplication - 20.0
+[INFO ] 2021-11-24 10:27:07.319 [http-nio-8080-exec-8] TransferApplication - user@spring.omg
+[INFO ] 2021-11-24 10:27:07.327 [http-nio-8080-exec-8] TransferApplication - TransactionBuddy{id=2, date=Wed Nov 24 10:27:07 CET 2021, amount=20.0, description='Wed Nov 24 10:27:07 CET 2021 -- from: user2@spring.omg -- retest', userBuddy=UserBuddy{id=3, userAccount=UserAccount{id=2, balance=999.9, user=User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$m0LaY.PaKQtyNw9H8cOsY.GqgSA2vAdi2kqBrwRs3TA8cwC1a2CKW', role='USER', phone='06'}}, buddy=User{email='user@spring.omg', firstName='user', lastName='00', password='$2a$10$H5pNJonRtwj0WgJOyJlTHef8Wuc0sMi9NY7X5ExssyQ8lWWJtON3a', role='USER', phone='06'}}}
+[INFO ] 2021-11-24 10:27:07.341 [http-nio-8080-exec-10] TransferApplication - getTest
+[INFO ] 2021-11-24 10:27:38.607 [http-nio-8080-exec-5] TransferApplication - user before update: User{email='user2@spring.omg', firstName='u', lastName='2', password='$2a$10$m0LaY.PaKQtyNw9H8cOsY.GqgSA2vAdi2kqBrwRs3TA8cwC1a2CKW', role='USER', phone='06'}
+[INFO ] 2021-11-24 10:27:38.608 [http-nio-8080-exec-5] TransferApplication - update:User{email='user4@spring.omg', firstName='u', lastName='2', password='123', role='null', phone='06'}
+[INFO ] 2021-11-24 10:27:38.680 [http-nio-8080-exec-5] TransferApplication - user has been updated: User{email='user4@spring.omg', firstName='u', lastName='2', password='$2a$10$tqSsIGL9kFeBGIno6bqMTOJdjH291fNudcpaMsF9NbYFN/EPpFOS.', role='USER', phone='06'}
+[INFO ] 2021-11-24 10:27:48.652 [http-nio-8080-exec-1] TransferApplication - getTest
+[INFO ] 2021-11-24 10:28:02.822 [http-nio-8080-exec-7] TransferApplication - getTest
+[INFO ] 2021-11-24 10:28:30.966 [http-nio-8080-exec-8] TransferApplication - getTest
+[INFO ] 2021-11-24 10:28:36.040 [http-nio-8080-exec-1] TransferApplication - userName: user3@spring.omg - buddy: user4@spring.omg
+[INFO ] 2021-11-24 10:28:36.059 [http-nio-8080-exec-10] TransferApplication - getTest

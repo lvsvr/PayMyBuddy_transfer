@@ -83,7 +83,7 @@
           <database value="db_payMyBuddy" />
           <type value="USER_PASSWORD" />
           <user value="adm_payMyBuddy" />
-          <deprecated-pwd value="cG1i" />
+          <deprecated-pwd value="" />
         </database>
         <properties>
           <auto-commit value="false" />
